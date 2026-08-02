@@ -28,8 +28,9 @@ Jedes Modell entsteht unter deiner Hand. Wähle aus 12 Fahrzeugtypen, leg die Mo
 {{clip:business}} Ein gutes Auto ist erst die halbe Firma. Bau den Betrieb dahinter auf und halte ihn am Laufen.
 
 - **Produktion** – Werke, Produktionslinien, Schichten und Umrüstung. Stimme die Stückzahlen auf die Nachfrage ab, ohne am Ende auf unverkauften Wagen sitzenzubleiben.
+- **Preise** – setze den Preis jedes Modells im Verhältnis zu dem, was deine Konkurrenz verlangt. Unterbiete sie, und ihre Käufer werden zu deinen; halte den Preis und lass die Marke die Arbeit machen. Gehst du zu weit runter, lesen Käufer das schlicht als billiges Auto.
 - **Finanzen** – finanziere die Entwicklung, halte die Liquidität im Griff und wachse mit Fremdkapital schneller, als es deine Bilanz eigentlich hergibt.
-- **Marke** – Marketing, Reputation und Prestige zahlen sich über Jahrzehnte aus. Eine Marke, der man vertraut, verkauft Autos, die rechnerisch niemand kaufen dürfte.
+- **Marke** – Marketing baut Reputation und Prestige auf, und die beiden entscheiden, wie Käufer dich gegenüber einem sonst identischen Konkurrenten einstufen. Lässt du einen Defekt schleifen, zieht das beides wieder nach unten. Eine Marke, der man vertraut, verkauft Autos, die rechnerisch niemand kaufen dürfte.
 
 ## Setz dich gegen ein wachsendes Feld von bis zu 30 echten Konkurrenten durch
 
@@ -43,4 +44,6 @@ Jedes Modell entsteht unter deiner Hand. Wähle aus 12 Fahrzeugtypen, leg die Mo
 
 ## Alles im Blick, nichts übersehen
 
-{{clip:reports}} 14 Auswertungen übersetzen die Simulation in Entscheidungen: Unternehmenswert im Zeitverlauf, Marktanteil, Gewinnmargen, Absatz im Vergleich zur Konkurrenz, Finanzen und Liquidität sowie die komplette Firmenchronik. Am Ende einer Partie zeigen dir eine ausführliche Auswertung und die Bestenliste genau, wo du gelandet bist.
+{{clip:reports}} Die Auswertungen sind dafür da, dass du auf Basis der Simulation handelst statt zu raten: Unternehmenswert im Zeitverlauf, Marktanteil, Gewinnmargen, Absatz im Vergleich zur Konkurrenz, Finanzen und Liquidität sowie die komplette Firmenchronik – vierzehn Auswertungen, jede beantwortet eine Frage, die du dir wirklich stellst.
+
+Am Ende einer Partie zeigen dir eine ausführliche Auswertung und die Bestenliste genau, wo du gelandet bist: hundert Jahre Entscheidungen, gemessen an jedem Konkurrenten, der es versucht hat. Ganz am Anfang dieser Geschichte standen eine Skizze, eine einzelne Werkstatt und eine Marke, für die du dir erst einen Namen ausdenken musstest.

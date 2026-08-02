@@ -28,8 +28,9 @@ Każdy model konstruujesz od zera. Wybierz jedno z 12 nadwozi, dobierz pojemnoś
 {{clip:business}} Świetne auto to dopiero połowa sukcesu. Zbuduj i utrzymaj wszystko, co za nim stoi.
 
 - **Produkcja** – fabryki, linie produkcyjne, praca na zmiany i przezbrajanie. Dopasuj wielkość produkcji do popytu, nie topiąc pieniędzy w niesprzedanych zapasach.
+- **Ceny** – ustawiaj cenę każdego modelu względem tego, czego żądają rywale. Podbij ich klientów, schodząc niżej; utrzymaj cenę i pozwól, żeby zrobiła to marka. Zejdziesz za nisko, a kupujący po prostu odczytają to jako tanie auto.
 - **Pieniądze** – finansuj badania i rozwój, pilnuj płynności i sięgaj po kapitał, żeby rosnąć szybciej, niż pozwala ci na to bilans.
-- **Marka** – marketing, reputacja i prestiż budują się latami i pracują na ciebie. Rozpoznawalna marka sprzeda auto, któremu arkusz kalkulacyjny nie dawał żadnych szans.
+- **Marka** – marketing buduje reputację i prestiż, a te decydują o tym, jak kupujący oceniają cię na tle identycznego pod każdym innym względem rywala. Zignoruj usterkę, a obie spadną. Rozpoznawalna marka sprzeda auto, któremu arkusz kalkulacyjny nie dawał żadnych szans.
 
 ## Przechytrz nawet 30 producentów sterowanych przez AI
 
@@ -43,4 +44,6 @@ Każdy model konstruujesz od zera. Wybierz jedno z 12 nadwozi, dobierz pojemnoś
 
 ## Czytaj wszystko, nie przegap niczego
 
-{{clip:reports}} Czternaście zakładek z raportami zamienia symulację w konkretne decyzje: wartość firmy w czasie, udział w rynku, marże, sprzedaż na tle konkurencji, finanse i przepływy pieniężne oraz pełna kronika firmy. Po ostatniej turze szczegółowe podsumowanie i ranking pokazują dokładnie, ile było warte to stulecie.
+{{clip:reports}} Raporty istnieją po to, żebyś działał na podstawie symulacji, a nie zgadywał: wartość firmy w czasie, udział w rynku, marże, sprzedaż na tle konkurencji, finanse i przepływy pieniężne oraz pełna kronika firmy – czternaście zakładek, każda odpowiada na pytanie, które naprawdę masz.
+
+Po zakończeniu rozgrywki szczegółowe podsumowanie i ranking pokazują dokładnie, jak wypadłeś: sto lat decyzji zestawionych z każdym rywalem, który próbował. Na samym początku tej historii był szkic, jeden warsztat i marka, dla której musiałeś dopiero wymyślić nazwę.

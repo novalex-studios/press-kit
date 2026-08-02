@@ -28,8 +28,9 @@ Cada modelo sai das tuas mãos. Escolhe entre 12 tipos de carro, dimensiona o mo
 {{clip:business}} Um bom carro é só metade do negócio. Monta e gere tudo o que está por trás dele.
 
 - **Produção** — fábricas, linhas de produção, turnos e reconversão. Ajusta o volume à demanda sem ficares atolado em stock parado.
+- **Preços** — define o preço de cada modelo em função do que os rivais estão a pedir. Ganha-lhes os clientes ao vender mais barato; mantém o preço e deixa a marca fazer o trabalho. Desce demasiado e os compradores leem isso simplesmente como um carro barato.
 - **Finanças** — financia a I&D, controla a tesouraria e recorre ao crédito para crescer mais depressa do que o teu balanço permitiria.
-- **Marca** — marketing, reputação e prestígio somam-se ano após ano. Uma marca de confiança vende carros que, no papel, não se venderiam.
+- **Marca** — o marketing constrói reputação e prestígio, e são eles que mudam a forma como os compradores te classificam frente a um rival em tudo idêntico. Deixa passar um defeito e isso arrasta-os para baixo outra vez. Uma marca de confiança vende carros que, no papel, não se venderiam.
 
 ## Vence um pelotão que cresce até 30 concorrentes autónomos
 
@@ -43,4 +44,6 @@ Cada modelo sai das tuas mãos. Escolhe entre 12 tipos de carro, dimensiona o mo
 
 ## Lê tudo, não deixes escapar nada
 
-{{clip:reports}} Catorze separadores de relatórios transformam a simulação em decisões: valor da empresa ao longo do tempo, quota de mercado, margens de lucro, vendas face à concorrência, contas e tesouraria, e o historial completo da empresa. No fim da partida, um boletim detalhado e uma tabela classificativa dizem-te ao certo onde ficaste.
+{{clip:reports}} Os relatórios existem para agires com base na simulação, e não a adivinhar: valor da empresa ao longo do tempo, quota de mercado, margens de lucro, vendas face à concorrência, contas e tesouraria, e o historial completo da empresa — catorze separadores, cada um a responder a uma pergunta que vais mesmo ter.
+
+No fim da partida, um boletim detalhado e uma tabela classificativa dizem-te ao certo onde ficaste: cem anos de decisões, medidas contra as de cada rival que tentou. Bem no início dessa história, um rascunho, uma única oficina, e uma marca para a qual tiveste de arranjar um nome.

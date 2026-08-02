@@ -28,8 +28,9 @@ Ogni modello nasce dalle tue mani. Parti da 12 tipi di auto, dimensiona il motor
 {{clip:business}} Un'ottima auto è solo metà del lavoro. L'altra metà è la macchina organizzativa che le sta dietro.
 
 - **Produzione**: stabilimenti, linee di produzione, turni e riconversioni. Adegua i volumi alla domanda senza restare sommerso dall'invenduto.
+- **Prezzi**: fissa il prezzo di ogni modello rispetto a quello che chiedono i rivali. Battili sul prezzo e i loro clienti diventano tuoi; tieni il prezzo alto e lascia che sia il marchio a giustificarlo. Scendi troppo e ai clienti sembra semplicemente un'auto economica.
 - **Soldi**: finanzia la ricerca e sviluppo, tieni d'occhio il flusso di cassa e usa la leva del credito per crescere più in fretta di quanto il bilancio consentirebbe.
-- **Marchio**: marketing, reputazione e prestigio maturano negli anni. Un marchio di cui la gente si fida vende auto che sulla carta non si venderebbero.
+- **Marchio**: il marketing costruisce reputazione e prestigio, e insieme decidono come i clienti ti classificano rispetto a un rivale altrimenti identico. Lascia correre un difetto e li trascina di nuovo giù. Un marchio di cui la gente si fida vende auto che sulla carta non si venderebbero.
 
 ## Batti una concorrenza che arriva fino a 30 rivali che decidono da soli
 
@@ -43,4 +44,6 @@ Ogni modello nasce dalle tue mani. Parti da 12 tipi di auto, dimensiona il motor
 
 ## Leggi tutto, non perderti nulla
 
-{{clip:reports}} Quattordici schede di analisi trasformano la simulazione in decisioni: valore dell'azienda nel tempo, quota di mercato, margini, vendite a confronto con la concorrenza, conti e flusso di cassa, e la storia completa dell'azienda. A fine partita, una pagella dettagliata e una classifica finale ti dicono con precisione come sei andato.
+{{clip:reports}} I report esistono per farti agire sulla base della simulazione, non per farti tirare a indovinare: valore dell'azienda nel tempo, quota di mercato, margini, vendite a confronto con la concorrenza, conti e flusso di cassa, e la storia completa dell'azienda — quattordici schede, ognuna una risposta a una domanda che ti poni davvero.
+
+A fine partita, una pagella dettagliata e una classifica finale ti dicono con precisione come sei andato: cento anni di decisioni, misurati contro ogni rivale che ci ha provato. All'inizio di quella storia, solo un disegno a matita, un'officina e un marchio a cui dovevi ancora dare un nome.

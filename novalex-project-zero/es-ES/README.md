@@ -28,8 +28,9 @@ La ingeniería de cada modelo está en tus manos. Elige entre 12 tipos de coche,
 {{clip:business}} Un buen coche es solo la mitad del negocio. Monta y gestiona todo lo que hay detrás.
 
 - **Fabricación**: plantas, líneas de producción, turnos y cambios de utillaje. Ajusta la producción a la demanda sin acabar enterrado bajo existencias que no compra nadie.
+- **Precios**: fija el precio de cada modelo frente a lo que pide la competencia. Ponte por debajo y te llevas a sus clientes; mantén el precio y deja que la marca haga el resto. Bájalo demasiado y los compradores lo verán sin más como un coche barato.
 - **Dinero**: financia el I+D, controla la tesorería y endéudate para crecer más rápido de lo que tu balance aguantaría.
-- **Marca**: marketing, reputación y prestigio se acumulan con los años. Una marca de confianza vende coches que sobre el papel no deberían venderse.
+- **Marca**: el marketing construye reputación y prestigio, y eso cambia cómo te sitúan los compradores frente a un rival por lo demás idéntico. Si dejas pasar un defecto, arrastra esa reputación hacia abajo. Una marca de confianza vende coches que sobre el papel no deberían venderse.
 
 ## Impón tu ley a una competencia que crece hasta los 30 rivales con vida propia
 
@@ -43,4 +44,6 @@ La ingeniería de cada modelo está en tus manos. Elige entre 12 tipos de coche,
 
 ## Léelo todo, que no se te escape nada
 
-{{clip:reports}} Catorce pestañas de informes convierten la simulación en decisiones: valor de la empresa a lo largo del tiempo, cuota de mercado, márgenes de beneficio, ventas frente a la competencia, cuentas y tesorería, y el historial completo de la compañía. Al terminar la partida, un balance detallado y una tabla de clasificación te dicen exactamente dónde has quedado.
+{{clip:reports}} Los informes están para que actúes según la simulación en vez de andar adivinando: valor de la empresa a lo largo del tiempo, cuota de mercado, márgenes de beneficio, ventas frente a la competencia, cuentas y tesorería, y el historial completo de la compañía — catorce pestañas, cada una respondiendo una pregunta que de verdad te vas a hacer.
+
+Al terminar la partida, un balance detallado y una tabla de clasificación te dicen exactamente dónde has quedado: cien años de decisiones, medidos frente a todos los rivales que lo intentaron. Al principio de esa historia solo había un boceto, un taller y una marca a la que todavía tenías que ponerle nombre.

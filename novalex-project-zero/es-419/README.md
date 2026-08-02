@@ -28,8 +28,9 @@ Cada modelo sale de tus manos. Elige entre 12 tipos de auto, define la cilindrad
 {{clip:business}} Un buen auto es apenas la mitad del negocio. La otra mitad hay que construirla y administrarla.
 
 - **Producción**: fábricas, líneas de producción, turnos de trabajo y reconversión de esas líneas. Ajusta el volumen a la demanda sin quedarte con los patios llenos.
+- **Precios**: fija el precio de cada modelo frente a lo que piden tus rivales. Ponte por debajo y sus compradores pasan a ser tuyos; mantén el precio y deja que la marca haga el trabajo. Bájalo demasiado y los compradores lo van a leer simplemente como un auto barato.
 - **Finanzas**: financia el I+D, cuida el flujo de caja y apóyate en el crédito para crecer más rápido de lo que tu balance permitiría.
-- **Marca**: el marketing, la reputación y el prestigio se acumulan con los años. Una marca con historia vende autos que ninguna hoja de cálculo explicaría.
+- **Marca**: el marketing construye reputación y prestigio, y eso cambia cómo te ubican los compradores frente a un rival por lo demás idéntico. Si dejas pasar un defecto, eso mismo te hunde de nuevo. Una marca con historia vende autos que ninguna hoja de cálculo explicaría.
 
 ## Hasta 30 competidores con vida propia
 
@@ -43,4 +44,6 @@ Cada modelo sale de tus manos. Elige entre 12 tipos de auto, define la cilindrad
 
 ## Léelo todo: que no se te escape nada
 
-{{clip:reports}} Catorce pestañas de informes convierten la simulación en decisiones: valor de la empresa año a año, participación de mercado, márgenes, ventas frente a la competencia, finanzas y flujo de caja, y la historia completa de la compañía. Al terminar la partida, un balance detallado y un ranking final te dicen exactamente dónde quedaste.
+{{clip:reports}} Los informes están para que actúes según la simulación en vez de adivinar: valor de la empresa a lo largo del tiempo, participación de mercado, márgenes, ventas frente a la competencia, finanzas y flujo de caja, y la historia completa de la compañía: catorce pestañas, cada una responde una pregunta que de verdad te vas a hacer.
+
+Al terminar la partida, un balance detallado y un ranking final te dicen exactamente dónde quedaste: cien años de decisiones, medidos contra cada rival que lo intentó. Al comienzo de esa historia había apenas un boceto, un taller, y una marca a la que todavía tenías que ponerle nombre.

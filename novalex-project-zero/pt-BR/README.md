@@ -28,8 +28,9 @@ Cada modelo sai de sua prancheta. Escolha entre 12 tipos de carro, dimensione o 
 {{clip:business}} Um bom carro é metade da empresa. A outra metade é a operação que você constrói atrás dele.
 
 - **Produção** — fábricas, linhas de produção, turnos e reconfiguração. Ajuste o volume à demanda sem encalhar carro no pátio.
+- **Preços** — defina o preço de cada modelo em relação ao que os rivais estão cobrando. Corte abaixo deles e os clientes passam a ser seus; segure o preço e deixe o emblema fazer o trabalho. Exagere na baixa e os compradores simplesmente vão ver isso como um carro barato.
 - **Dinheiro** — banque a P&D, controle o caixa e use financiamento para crescer mais rápido do que seu balanço deixaria.
-- **Marca** — marketing, reputação e prestígio se acumulam com o tempo. Emblema respeitado vende carro que planilha nenhuma explica.
+- **Marca** — o marketing constrói reputação e prestígio, e os dois mudam como os compradores classificam você diante de um rival idêntico. Deixe passar um defeito e eles despencam de novo. Um emblema respeitado vende carros que planilha nenhuma explica.
 
 ## Supere uma concorrência que cresce até 30 montadoras de verdade
 
@@ -43,4 +44,6 @@ Cada modelo sai de sua prancheta. Escolha entre 12 tipos de carro, dimensione o 
 
 ## Leia tudo, não perca nada
 
-{{clip:reports}} Quatorze abas de relatórios transformam a simulação em decisão: valor da empresa no tempo, participação de mercado, margem de lucro, vendas frente à concorrência, finanças e fluxo de caixa, mais o histórico completo da empresa. No fim da partida, um balanço detalhado e o ranking geral mostram exatamente onde você chegou.
+{{clip:reports}} Os relatórios existem para você agir com base na simulação, não para adivinhar: valor da empresa ao longo do tempo, participação de mercado, margens de lucro, vendas frente à concorrência, finanças e fluxo de caixa, além do histórico completo da empresa — catorze abas, cada uma respondendo a uma pergunta que você realmente vai ter.
+
+Quando a partida termina, um balanço detalhado e o ranking geral mostram exatamente até onde você chegou: cem anos de decisões, medidos contra cada rival que tentou. Bem no início dessa história, um esboço, uma única oficina, e um emblema para o qual você teve que pensar num nome.

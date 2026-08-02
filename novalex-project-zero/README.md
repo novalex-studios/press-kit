@@ -28,8 +28,9 @@ Every model is yours to engineer. Choose from 12 body types, size the engine, pi
 {{clip:business}} A great car is only half the company. Build and manage the operation behind it.
 
 - **Manufacturing** — factories, production lines, shifts and retooling. Match output to demand without drowning in unsold stock.
+- **Pricing** — set every model's price against what your rivals are asking. Undercut them and their buyers become yours; hold your price and let the badge carry it. Go too cheap and buyers simply read it as a cheap car.
 - **Money** — fund R&D, manage cash flow, and use financing to grow faster than your balance sheet should allow.
-- **Brand** — marketing, reputation and prestige compound over time. A trusted badge sells cars a spreadsheet says it shouldn't.
+- **Brand** — marketing builds reputation and prestige, and they shift how buyers rank you against an otherwise identical rival. Let a defect slide and it drags them back down. A trusted badge sells cars a spreadsheet says it shouldn't.
 
 ## Outplay a field that grows to 30 living rivals
 
@@ -43,4 +44,6 @@ Every model is yours to engineer. Choose from 12 body types, size the engine, pi
 
 ## Read everything, miss nothing
 
-{{clip:reports}} Fourteen report tabs turn the simulation into decisions: company value over time, market share, profit margins, sales versus the competition, financials and cash flow, and a full company history. When the run ends, a detailed scorecard and leaderboard tell you exactly how you stacked up.
+{{clip:reports}} The reports are there so you can act on the simulation instead of guessing at it: company value over time, market share, profit margins, sales versus the competition, financials and cash flow, and a full company history — fourteen tabs, each answering a question you will actually have.
+
+When the run ends, a detailed scorecard and leaderboard tell you exactly how you stacked up: a hundred years of decisions, measured against every rival who tried. At the very start of that history, a sketch, a single garage, and a badge you had to think of a name for.

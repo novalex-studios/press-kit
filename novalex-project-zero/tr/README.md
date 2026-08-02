@@ -28,8 +28,9 @@ Her modelin mühendisliği sizin elinizde. 12 araç tipinden birini seçin, moto
 {{clip:business}} İyi bir araba şirketin ancak yarısıdır. Arkasındaki düzeni siz kurar, siz yönetirsiniz.
 
 - **Üretim** — fabrikalar, üretim hatları, vardiyalar ve hat dönüşümleri. Elinizde satılmayan stok kalmadan üretimi talebe göre ayarlayın.
+- **Fiyatlandırma** — her modelin fiyatını rakiplerinizin istediğine göre belirleyin. Onları alt fiyatlayın ve müşterileri sizin olsun; fiyatınızı koruyun ve markanın işi yapmasına izin verin. Çok ucuza kaçarsanız alıcılar bunu basitçe ucuz bir araba olarak okur.
 - **Finans** — Ar-Ge’yi fonlayın, nakit akışını yönetin, bilançonuzun kaldırabileceğinden daha hızlı büyümek için kredi ve finansmanı kullanın.
-- **Marka** — pazarlama, itibar ve prestij yıllar içinde birikir. Güçlü bir marka, kâğıt üzerindeki rakamların satmaz dediği arabayı satar.
+- **Marka** — pazarlama itibar ve prestij inşa eder; ikisi de, aynı özellikteki bir rakiple aranızda seçim yapan alıcının hangi tarafa yöneleceğini belirler. Bir kusuru görmezden gelirseniz ikisi de geriler. Güçlü bir marka, kâğıt üzerindeki rakamların satmaz dediği arabayı satar.
 
 ## Sayısı 30’a kadar çıkan rakip kadrosunu alt edin
 
@@ -43,4 +44,6 @@ Her modelin mühendisliği sizin elinizde. 12 araç tipinden birini seçin, moto
 
 ## Her şeyi görün, hiçbir şeyi kaçırmayın
 
-{{clip:reports}} On dört rapor sekmesi simülasyonu somut kararlara dönüştürür: yıllara göre şirket değeri, pazar payı, kâr marjları, rakiplere karşı satışlar, mali tablolar ve nakit akışı, bir de şirketin tüm geçmişi. Oyun bittiğinde ayrıntılı bir değerlendirme karnesi ve lider tablosu nerede durduğunuzu net biçimde ortaya koyar.
+{{clip:reports}} Raporlar, kör tahminde bulunmak yerine simülasyona dayanarak hareket etmeniz için var: yıllara göre şirket değeri, pazar payı, kâr marjları, rakiplere karşı satışlar, mali tablolar ve nakit akışı, bir de şirketin tüm geçmişi — on dört sekme, her biri gerçekten sorduğunuz bir soruyu yanıtlar.
+
+Oyun bittiğinde ayrıntılı bir değerlendirme karnesi ve lider tablosu nerede durduğunuzu net biçimde ortaya koyar: yüz yıllık kararlar, denemiş her rakiple kıyaslanır. O geçmişin en başında ise bir karalama çizim, tek bir atölye ve adını sizin bulmanız gereken bir marka vardır.
