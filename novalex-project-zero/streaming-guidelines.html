@@ -203,7 +203,7 @@ h1 {
 
 h2 {
   /*
-   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it —
+   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it;
    * the rule looked like it belonged to the text, not the heading. 16px separates the two without
    * competing with the 48px that opens a new chapter.
    */
@@ -218,10 +218,10 @@ h2 {
 
 /*
  * The store copy's own [h2] chapters render INSIDE the About section, so they are not the section's
- * first child and get no separation from the paragraph above — the whole page reads as one block.
+ * first child and get no separation from the paragraph above, so the whole page reads as one block.
  * The section's own heading keeps its flush top; every chapter after it gets air.
  *
- * recording.html and streaming-guidelines.html have no [section] wrapper at all — their chapters are
+ * recording.html and streaming-guidelines.html have no [section] wrapper at all. Their chapters are
  * direct children of [main], so the section-scoped selector alone never matched them and every
  * chapter on those two pages ran together at 8px (measured in the browser, 2026-08-04).
  */
@@ -231,8 +231,12 @@ main > h2:not(:first-child) { margin-top: var(--spacing-xxl); }
 /*
  * Only the standalone pages put [h1] directly in [main]; the index's sits inside .pk-masthead,
  * which carries its own top padding. Without this they opened flush against the viewport edge.
+ *
+ * The bottom half is a second, separate gap the first pass missed: [h1] is margin 0 globally, so
+ * fixing only the top left the title still touching its own first paragraph (owner-reported twice).
+ * 24px, larger than the 16px under an [h2], because the display-size title needs more air under it.
  */
-main > h1 { margin-top: var(--spacing-xxl); }
+main > h1 { margin: var(--spacing-xxl) 0 var(--spacing-lg-xl); }
 
 main p, main li { max-width: 46rem; }
 main p { margin: 0 0 var(--spacing-md); }
@@ -487,9 +491,9 @@ a:hover { color: var(--colors-accent-base); }
 <div class="pk-shell">
 <main>
 <h1>Streaming and video guidelines</h1>
-<p><em>Issued by Christian Petry, Switzerland — the game's sole developer. There is no separate studio entity; this permission is granted directly by that individual. Commercial enquiries beyond this page: studios.novalex@gmail.com. Last updated: 2026-08-04.</em></p>
+<p><em>Issued by Christian Petry, Switzerland, the game's sole developer. There is no separate studio entity; this permission is granted directly by that individual. Commercial enquiries beyond this page: studios.novalex@gmail.com. Last updated: 2026-08-04.</em></p>
 <h2>Short version</h2>
-<p>You may record, stream and monetise video of the game. You do not need to ask us, and you do not need a separate licence. There is no spoiler embargo, no content-range limit, and no restriction on which parts of the game you show. The permission covers the demo, the full game, and all future content we release for it — updates, DLC, a sequel — automatically; you do not need to check back when we ship something new.</p>
+<p>You may record, stream and monetise video of the game. You do not need to ask us, and you do not need a separate licence. There is no spoiler embargo, no content-range limit, and no restriction on which parts of the game you show. The permission covers the demo, the full game, and all future content we release for it (updates, DLC, a sequel) automatically; you do not need to check back when we ship something new.</p>
 <h2>What you may do</h2>
 <ul>
 <li><strong>Record and stream the game</strong>, live or edited, in any format and at any length.</li>
@@ -498,34 +502,34 @@ a:hover { color: var(--colors-accent-base); }
 <li><strong>Use our thumbnail assets.</strong> The key art, logo and screenshots in the press kit may be used in thumbnails, channel art and video descriptions for videos about the game.</li>
 </ul>
 <h2>Platforms</h2>
-<p>The permission applies on YouTube, Twitch, TikTok, X, niconico, ツイキャス (TwitCasting), bilibili, Chzzk, SOOP, VK Video, and similar video and live-streaming services. The list is illustrative, not exhaustive — if your platform is not named, the permission still applies.</p>
+<p>The permission applies on YouTube, Twitch, TikTok, X, niconico, ツイキャス (TwitCasting), bilibili, Chzzk, SOOP, VK Video, and similar video and live-streaming services. The list is illustrative, not exhaustive: if your platform is not named, the permission still applies.</p>
 <h2>No spoiler or content-range limits</h2>
 <p>You may show any part of the game, including the ending, from the day it is available to you. We set no embargo date, no chapter limit, and no &quot;do not show past X&quot; line.</p>
 <h2>Ownership</h2>
-<p>We retain ownership of the game and its assets. This page grants permission to use them in video; it transfers nothing. You own your own video — your commentary, your edit, your footage of your session — and nothing here claims a licence over it or asks you to assign anything to us.</p>
+<p>We retain ownership of the game and its assets. This page grants permission to use them in video; it transfers nothing. You own your own video: your commentary, your edit, your footage of your session, and nothing here claims a licence over it or asks you to assign anything to us.</p>
 <h2>What is not allowed</h2>
 <p>Deliberately short:</p>
 <ul>
-<li>Do not distribute the game itself, its build, or its asset files — footage is fine, the files are not.</li>
+<li>Do not distribute the game itself, its build, or its asset files. Footage is fine, the files are not.</li>
 <li>Do not present the game, or a video of it, as your own work or as an official release from us.</li>
 <li>Do not use the game's name, logo or assets in a way that implies we endorse, sponsor or partner with you when we do not.</li>
 </ul>
-<p><strong>Speedrun and accessibility tooling are carved out of the line above.</strong> Speedrun tooling — autosplitters, practice tools, route-verification mods — and accessibility tooling — input remappers, colour-blind filters, screen-reader bridges — are permitted even when they ship alongside modified game files needed to run them. Both are named explicitly so neither has to guess whether it counts as &quot;the build.&quot;</p>
+<p><strong>Speedrun and accessibility tooling are carved out of the line above.</strong> Speedrun tooling (autosplitters, practice tools, route-verification mods) and accessibility tooling (input remappers, colour-blind filters, screen-reader bridges) are permitted even when they ship alongside modified game files needed to run them. Both are named explicitly so neither has to guess whether it counts as &quot;the build.&quot;</p>
 <h2>VTubers and corporate talent</h2>
 <p>This permission applies to VTubers and to talent affiliated with a corporation or agency on the same terms as to individual creators. Affiliated talent does not need a separate agreement with us, and we do not require the affiliated company to contact us before a stream. Revenue shared with an agency under the talent's own contract is not our concern and does not affect this permission.</p>
 <h2>Audio and Content ID</h2>
-<p><strong>One caveat, and we would rather you heard it from us than from a claim notice.</strong> The sound effects are CC0 and carry no claim risk. The music tracks are licensed to us under the Pixabay Content License and each is registered in YouTube Content ID, so a video containing the game's music may receive an automatic claim. A claim is not a strike, but it can place ads on your video or route its revenue elsewhere. If you monetise, set the Music slider to zero and use your own bed — the sound-effect slider is independent, so the game still sounds like itself.</p>
+<p><strong>One caveat, and we would rather you heard it from us than from a claim notice.</strong> The sound effects are CC0 and carry no claim risk. The music tracks are licensed to us under the Pixabay Content License and each is registered in YouTube Content ID, so a video containing the game's music may receive an automatic claim. A claim is not a strike, but it can place ads on your video or route its revenue elsewhere. If you monetise, set the Music slider to zero and use your own bed. The sound-effect slider is independent, so the game still sounds like itself.</p>
 <p>The full detail, including OBS capture settings and the audio-source gotcha, is in the recording notes linked at the bottom of this page.</p>
 <h2>Commercial use beyond this page</h2>
-<p>Anything not covered here — a broadcast or televised use, a paid promotional campaign we commission, use of the game in a commercial product other than video, an esports or tournament licence — needs a separate conversation. Contact studios.novalex@gmail.com.</p>
+<p>Anything not covered here needs a separate conversation: a broadcast or televised use, a paid promotional campaign we commission, use of the game in a commercial product other than video, an esports or tournament licence. Contact studios.novalex@gmail.com.</p>
 <h2>Which version governs</h2>
-<p>If we edit this page, the version in force when you upload your video is the version that governs it — not whichever version happens to be live when someone watches it later. This page states when it was last updated, above; the project's git history holds every earlier version.</p>
+<p>If we edit this page, the version in force when you upload your video is the version that governs it, not whichever version happens to be live when someone watches it later. This page states when it was last updated, above; the project's git history holds every earlier version.</p>
 <h2>Revocation</h2>
-<p>We may withdraw this permission, for everyone or for a specific person, and we would only do so for a serious reason. Revocation is prospective only: it stops the permission from applying to videos uploaded after the revocation date. A video already published and monetised under this grant stays permitted permanently — we do not reach back and make it retroactively infringing. There is no advance notice period; revocation takes effect from the date we state it.</p>
+<p>We may withdraw this permission, for everyone or for a specific person, and we would only do so for a serious reason. Revocation is prospective only: it stops the permission from applying to videos uploaded after the revocation date. A video already published and monetised under this grant stays permitted permanently; we do not reach back and make it retroactively infringing. There is no advance notice period; revocation takes effect from the date we state it.</p>
 <p>This permission, including this revocation clause, survives a change of ownership of the game or the studio. A successor owner or publisher is bound by it the same way we are.</p>
 </main>
 <footer class="pk-footer">
-<p><a href="recording.html">Recording the game — capture notes, audio and Content ID</a></p>
+<p><a href="recording.html">Recording the game: capture notes, audio and Content ID</a></p>
 </footer>
 </div>
 </body>

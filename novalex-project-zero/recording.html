@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Recording the game — notes for streamers, YouTubers and press</title>
+<title>Recording the game: notes for streamers, YouTubers and press</title>
 <style>
 :root {
   --colors-surface-bg: #151210;
@@ -203,7 +203,7 @@ h1 {
 
 h2 {
   /*
-   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it —
+   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it;
    * the rule looked like it belonged to the text, not the heading. 16px separates the two without
    * competing with the 48px that opens a new chapter.
    */
@@ -218,10 +218,10 @@ h2 {
 
 /*
  * The store copy's own [h2] chapters render INSIDE the About section, so they are not the section's
- * first child and get no separation from the paragraph above — the whole page reads as one block.
+ * first child and get no separation from the paragraph above, so the whole page reads as one block.
  * The section's own heading keeps its flush top; every chapter after it gets air.
  *
- * recording.html and streaming-guidelines.html have no [section] wrapper at all — their chapters are
+ * recording.html and streaming-guidelines.html have no [section] wrapper at all. Their chapters are
  * direct children of [main], so the section-scoped selector alone never matched them and every
  * chapter on those two pages ran together at 8px (measured in the browser, 2026-08-04).
  */
@@ -231,8 +231,12 @@ main > h2:not(:first-child) { margin-top: var(--spacing-xxl); }
 /*
  * Only the standalone pages put [h1] directly in [main]; the index's sits inside .pk-masthead,
  * which carries its own top padding. Without this they opened flush against the viewport edge.
+ *
+ * The bottom half is a second, separate gap the first pass missed: [h1] is margin 0 globally, so
+ * fixing only the top left the title still touching its own first paragraph (owner-reported twice).
+ * 24px, larger than the 16px under an [h2], because the display-size title needs more air under it.
  */
-main > h1 { margin-top: var(--spacing-xxl); }
+main > h1 { margin: var(--spacing-xxl) 0 var(--spacing-lg-xl); }
 
 main p, main li { max-width: 46rem; }
 main p { margin: 0 0 var(--spacing-md); }
@@ -486,29 +490,25 @@ a:hover { color: var(--colors-accent-base); }
 <body>
 <div class="pk-shell">
 <main>
-<h1>Recording the game — notes for streamers, YouTubers and press</h1>
+<h1>Recording the game: notes for streamers, YouTubers and press</h1>
 <p>Short version: <strong>the game imposes no capture restrictions.</strong> There is no DRM, no protected-content flag, and no overlay that blanks a recording. Record, stream and monetise freely.</p>
 <p>Two things are still worth knowing in advance: how to get the audio, and one Content-ID caveat if you monetise. Verified 2026-08-02 with OBS Studio on Windows, windowed and fullscreen.</p>
-<h2>Window and display capture — no setup needed</h2>
+<h2>Window and display capture: no setup needed</h2>
 <p><strong>Window Capture</strong> and <strong>Display Capture</strong> both work on OBS defaults, no property changes required. Display Capture shows no blanking or “protected content” overlay, because there is nothing to blank: the game sets no DRM or protected-window flags.</p>
 <h2>Use Desktop Audio, not Application Audio Capture</h2>
-<p>Music and sound effects come from the WebView child process, which has no top-level window of its own, so OBS's <strong>Application Audio Capture</strong> cannot bind to it — the game will not appear in that source's window dropdown, and the meter stays flat if you pick the main executable.</p>
+<p>Music and sound effects come from the WebView child process, which has no top-level window of its own, so OBS's <strong>Application Audio Capture</strong> cannot bind to it. The game will not appear in that source's window dropdown, and the meter stays flat if you pick the main executable.</p>
 <p>Use a <strong>Desktop Audio</strong> source instead. Audio arrives on the normal shared output device, in sync, at normal levels. Per-application audio isolation is not available for the game on Windows.</p>
-<h2>Music and YouTube Content ID — please read before monetising</h2>
+<h2>Music and YouTube Content ID: please read before monetising</h2>
 <p>We would rather tell you this up front than have you find it in a claim notice.</p>
 <ul>
 <li><strong>Sound effects</strong> are Creative Commons 0 (public domain). No issue, ever.</li>
-<li><strong>Music</strong> — every track in the game, and the trailer track — is licensed to us under the Pixabay Content License, which permits commercial use, <strong>but each one is registered in YouTube Content ID</strong>.</li>
+<li><strong>Music</strong>: every track in the game, and the trailer track, is licensed to us under the Pixabay Content License, which permits commercial use, <strong>but each one is registered in YouTube Content ID</strong>.</li>
 </ul>
-<p>Practical consequence: a video containing the game's music may receive an automatic Content-ID claim. A claim is <strong>not</strong> a copyright strike — no penalty to your channel — but it can place ads on the video, or route its revenue to the claimant, until you dispute it. We cannot clear it on your behalf: the Pixabay licence certificate only works for the licensee who downloaded the track, which is us and not you.</p>
-<p><strong>If you monetise, drag the Music slider to zero</strong> in the audio settings and use your own bed. Music and sound effects have independent volume sliders, so the SFX stay audible — they are CC0 and carry no claim risk. Nothing else in the game is claimable.</p>
-<p>We consider this a defect in our own asset choice rather than something you should have to work around, and we would replace the tracks with Content-ID-free ones if this bites creators in practice. If it happens to you, tell us — that is exactly the signal we would act on.</p>
+<p>Practical consequence: a video containing the game's music may receive an automatic Content-ID claim. A claim is <strong>not</strong> a copyright strike (no penalty to your channel), but it can place ads on the video, or route its revenue to the claimant, until you dispute it. We cannot clear it on your behalf: the Pixabay licence certificate only works for the licensee who downloaded the track, which is us and not you.</p>
+<p><strong>If you monetise, drag the Music slider to zero</strong> in the audio settings and use your own bed. Music and sound effects have independent volume sliders, so the SFX stay audible. They are CC0 and carry no claim risk. Nothing else in the game is claimable.</p>
+<p>We consider this a defect in our own asset choice rather than something you should have to work around, and we would replace the tracks with Content-ID-free ones if this bites creators in practice. If it happens to you, tell us: that is exactly the signal we would act on.</p>
 <h2>If the fullscreen capture looks cropped</h2>
 <p>That is OBS scene composition, not the game: your monitor is larger than the OBS <strong>Base (Canvas) Resolution</strong>, so the source runs off the canvas edge. Select the source in the preview and press <strong>Ctrl+F</strong> (<em>Fit to screen</em>).</p>
-<h2>Linux and macOS</h2>
-<p><strong>Not verified on our side, and we do not plan to be.</strong> Nothing in the build is platform-specific about capture and the no-DRM statement holds everywhere — but we have only run the capture checklist on Windows, so we are not claiming a verified pass on Linux or macOS. If you hit something there, tell us and we will fix or document it.</p>
-<hr>
-<p><em>Maintained alongside <code>milestones/qa/obs-capture-checklist.md</code>, which holds the full QA run record. Referenced by the streamer/YouTuber outreach templates (M20 Phase 8).</em></p>
 </main>
 <footer class="pk-footer">
 <p><a href="index.html">Press Kit</a></p>

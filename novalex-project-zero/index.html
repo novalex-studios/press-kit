@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Novalex Project Zero — Press Kit</title>
+<title>Novalex Project Zero: Press Kit</title>
 <meta name="description" content="A turn-based car-company tycoon. Design every model from the chassis up, run the factories, price sharp, and out-engineer a field that grows to 30 AI rivals across a century of motoring. Build the automaker that lasts, or go bankrupt trying.">
-<meta property="og:title" content="Novalex Project Zero — Press Kit">
+<meta property="og:title" content="Novalex Project Zero: Press Kit">
 <meta property="og:description" content="A turn-based car-company tycoon. Design every model from the chassis up, run the factories, price sharp, and out-engineer a field that grows to 30 AI rivals across a century of motoring. Build the automaker that lasts, or go bankrupt trying.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://novalex-studios.github.io/press-kit/novalex-project-zero/">
@@ -226,7 +226,7 @@ h1 {
 
 h2 {
   /*
-   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it —
+   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it;
    * the rule looked like it belonged to the text, not the heading. 16px separates the two without
    * competing with the 48px that opens a new chapter.
    */
@@ -241,10 +241,10 @@ h2 {
 
 /*
  * The store copy's own [h2] chapters render INSIDE the About section, so they are not the section's
- * first child and get no separation from the paragraph above — the whole page reads as one block.
+ * first child and get no separation from the paragraph above, so the whole page reads as one block.
  * The section's own heading keeps its flush top; every chapter after it gets air.
  *
- * recording.html and streaming-guidelines.html have no [section] wrapper at all — their chapters are
+ * recording.html and streaming-guidelines.html have no [section] wrapper at all. Their chapters are
  * direct children of [main], so the section-scoped selector alone never matched them and every
  * chapter on those two pages ran together at 8px (measured in the browser, 2026-08-04).
  */
@@ -254,8 +254,12 @@ main > h2:not(:first-child) { margin-top: var(--spacing-xxl); }
 /*
  * Only the standalone pages put [h1] directly in [main]; the index's sits inside .pk-masthead,
  * which carries its own top padding. Without this they opened flush against the viewport edge.
+ *
+ * The bottom half is a second, separate gap the first pass missed: [h1] is margin 0 globally, so
+ * fixing only the top left the title still touching its own first paragraph (owner-reported twice).
+ * 24px, larger than the 16px under an [h2], because the display-size title needs more air under it.
  */
-main > h1 { margin-top: var(--spacing-xxl); }
+main > h1 { margin: var(--spacing-xxl) 0 var(--spacing-lg-xl); }
 
 main p, main li { max-width: 46rem; }
 main p { margin: 0 0 var(--spacing-md); }
@@ -646,7 +650,7 @@ a:hover { color: var(--colors-accent-base); }
 <dt>Developer</dt><dd>Novalex Studios</dd>
 <dt>Publisher</dt><dd>Novalex Studios (self-published)</dd>
 <dt>Founded / based</dt><dd>2026 · Switzerland</dd>
-<dt>Release date / status</dt><dd>November 2026 — a free demo is live now</dd>
+<dt>Release date / status</dt><dd>November 2026. A free demo is live now</dd>
 <dt>Platforms</dt><dd>Windows, Linux, macOS, Steam Deck, Android</dd>
 <dt>Languages</dt><dd>16 languages</dd>
 <dt>Genre</dt><dd>Tycoon / business simulation</dd>
@@ -661,7 +665,7 @@ a:hover { color: var(--colors-accent-base); }
 <h2>Downloads</h2>
 <p class="pk-actions"><a class="pk-button pk-button--primary" href="https://novalex-studios.itch.io/novalex-project-zero">Play the free demo on itch.io</a>
 <a class="pk-button" href="press-kit-en.zip">Download press kit (ZIP)</a></p>
-<p>Press keys are available on request — contact studios.novalex@gmail.com.</p>
+<p>Press keys are available on request. Contact studios.novalex@gmail.com.</p>
 <p><a href="recording.html">Recording & streaming the game</a></p>
 </section>
 <section>
@@ -726,7 +730,7 @@ a:hover { color: var(--colors-accent-base); }
 </section>
 </main>
 <footer class="pk-footer">
-<p>Novalex Project Zero — press kit. Contact: <a href="mailto:studios.novalex@gmail.com">studios.novalex@gmail.com</a> <a href="streaming-guidelines.html">Streaming and video guidelines</a></p>
+<p>Novalex Project Zero press kit. Contact: <a href="mailto:studios.novalex@gmail.com">studios.novalex@gmail.com</a> <a href="streaming-guidelines.html">Streaming and video guidelines</a></p>
 </footer>
 </div>
 </body>

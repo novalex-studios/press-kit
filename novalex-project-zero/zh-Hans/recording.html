@@ -203,7 +203,7 @@ h1 {
 
 h2 {
   /*
-   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it —
+   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it;
    * the rule looked like it belonged to the text, not the heading. 16px separates the two without
    * competing with the 48px that opens a new chapter.
    */
@@ -218,10 +218,10 @@ h2 {
 
 /*
  * The store copy's own [h2] chapters render INSIDE the About section, so they are not the section's
- * first child and get no separation from the paragraph above — the whole page reads as one block.
+ * first child and get no separation from the paragraph above, so the whole page reads as one block.
  * The section's own heading keeps its flush top; every chapter after it gets air.
  *
- * recording.html and streaming-guidelines.html have no [section] wrapper at all — their chapters are
+ * recording.html and streaming-guidelines.html have no [section] wrapper at all. Their chapters are
  * direct children of [main], so the section-scoped selector alone never matched them and every
  * chapter on those two pages ran together at 8px (measured in the browser, 2026-08-04).
  */
@@ -231,8 +231,12 @@ main > h2:not(:first-child) { margin-top: var(--spacing-xxl); }
 /*
  * Only the standalone pages put [h1] directly in [main]; the index's sits inside .pk-masthead,
  * which carries its own top padding. Without this they opened flush against the viewport edge.
+ *
+ * The bottom half is a second, separate gap the first pass missed: [h1] is margin 0 globally, so
+ * fixing only the top left the title still touching its own first paragraph (owner-reported twice).
+ * 24px, larger than the 16px under an [h2], because the display-size title needs more air under it.
  */
-main > h1 { margin-top: var(--spacing-xxl); }
+main > h1 { margin: var(--spacing-xxl) 0 var(--spacing-lg-xl); }
 
 main p, main li { max-width: 46rem; }
 main p { margin: 0 0 var(--spacing-md); }
@@ -505,10 +509,6 @@ a:hover { color: var(--colors-accent-base); }
 <p>我们认为这是我们自己在选素材上留下的缺陷，而不是该由你来绕开的问题。如果这件事在实际使用中确实给创作者添了麻烦，我们会把这些曲目换成不在 Content ID 里的版本。要是你碰上了，请告诉我们——这正是会让我们动手的那种反馈。</p>
 <h2>如果全屏画面看起来被裁掉了</h2>
 <p>那是 OBS 的场景构图问题，不是游戏的问题：你的显示器分辨率大于 OBS 的<strong>基础（画布）分辨率</strong>，所以画面源超出了画布边缘。在预览里选中该源，按 <strong>Ctrl+F</strong>（<em>适应屏幕</em>）即可。</p>
-<h2>Linux 与 macOS</h2>
-<p><strong>我们这边没有验证过，而且也不打算去验证。</strong> 游戏在采集方面没有做任何分平台的处理，没有 DRM 这一条在所有平台上都成立——但我们只在 Windows 上跑过这份采集检查清单，所以不会声称在 Linux 或 macOS 上通过了验证。你在那边遇到问题，请告诉我们，我们会修，或者把它写进文档。</p>
-<hr>
-<p><em>与 <code>milestones/qa/obs-capture-checklist.md</code> 一同维护，那里保存着完整的 QA 执行记录。由面向主播与视频作者的联络模板引用（M20 Phase 8）。</em></p>
 </main>
 <footer class="pk-footer">
 <p><a href="index.html">媒体资料包</a></p>

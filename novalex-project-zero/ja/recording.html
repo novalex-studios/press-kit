@@ -203,7 +203,7 @@ h1 {
 
 h2 {
   /*
-   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it —
+   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it;
    * the rule looked like it belonged to the text, not the heading. 16px separates the two without
    * competing with the 48px that opens a new chapter.
    */
@@ -218,10 +218,10 @@ h2 {
 
 /*
  * The store copy's own [h2] chapters render INSIDE the About section, so they are not the section's
- * first child and get no separation from the paragraph above — the whole page reads as one block.
+ * first child and get no separation from the paragraph above, so the whole page reads as one block.
  * The section's own heading keeps its flush top; every chapter after it gets air.
  *
- * recording.html and streaming-guidelines.html have no [section] wrapper at all — their chapters are
+ * recording.html and streaming-guidelines.html have no [section] wrapper at all. Their chapters are
  * direct children of [main], so the section-scoped selector alone never matched them and every
  * chapter on those two pages ran together at 8px (measured in the browser, 2026-08-04).
  */
@@ -231,8 +231,12 @@ main > h2:not(:first-child) { margin-top: var(--spacing-xxl); }
 /*
  * Only the standalone pages put [h1] directly in [main]; the index's sits inside .pk-masthead,
  * which carries its own top padding. Without this they opened flush against the viewport edge.
+ *
+ * The bottom half is a second, separate gap the first pass missed: [h1] is margin 0 globally, so
+ * fixing only the top left the title still touching its own first paragraph (owner-reported twice).
+ * 24px, larger than the 16px under an [h2], because the display-size title needs more air under it.
  */
-main > h1 { margin-top: var(--spacing-xxl); }
+main > h1 { margin: var(--spacing-xxl) 0 var(--spacing-lg-xl); }
 
 main p, main li { max-width: 46rem; }
 main p { margin: 0 0 var(--spacing-md); }
@@ -505,10 +509,6 @@ a:hover { color: var(--colors-accent-base); }
 <p>そもそもこれは、配信者の側で回避していただくような話ではなく、当方の素材選定の不備だと考えています。実際に支障が 出ているようなら、Content ID に登録されていない楽曲に差し替えます。もし申し立てを受けたら、ぜひ教えてください。 当方が動くきっかけになるのは、まさにその一報です。</p>
 <h2>フルスクリーンの映像が見切れる場合</h2>
 <p>これは OBS のシーン構成の問題で、ゲーム側の問題ではありません。モニターの解像度が OBS の<strong>基本（キャンバス） 解像度</strong>より大きいため、ソースがキャンバスからはみ出しています。プレビューでソースを選択し、<strong>Ctrl+F</strong> （<em>画面に合わせる</em>）を押してください。</p>
-<h2>Linux と macOS について</h2>
-<p><strong>当方では未確認で、今後確認する予定もありません。</strong> 収録まわりにプラットフォーム固有の実装はなく、DRM を 使っていないという説明はどの環境でも変わりません。ただ、収録のチェックリストを通したのは Windows だけですので、 Linux と macOS については「確認済み」とは申し上げないでおきます。何か引っかかることがあれば教えてください。 修正するか、ドキュメントに書き足します。</p>
-<hr>
-<p><em>QA の実施記録は <code>milestones/qa/obs-capture-checklist.md</code> にまとめてあり、本ノートはそれと合わせて維持して います。配信者・動画投稿者向けのアウトリーチテンプレート（M20 Phase 8）から参照されています。</em></p>
 </main>
 <footer class="pk-footer">
 <p><a href="index.html">プレスキット</a></p>

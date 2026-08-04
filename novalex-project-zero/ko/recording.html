@@ -203,7 +203,7 @@ h1 {
 
 h2 {
   /*
-   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it —
+   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it;
    * the rule looked like it belonged to the text, not the heading. 16px separates the two without
    * competing with the 48px that opens a new chapter.
    */
@@ -218,10 +218,10 @@ h2 {
 
 /*
  * The store copy's own [h2] chapters render INSIDE the About section, so they are not the section's
- * first child and get no separation from the paragraph above — the whole page reads as one block.
+ * first child and get no separation from the paragraph above, so the whole page reads as one block.
  * The section's own heading keeps its flush top; every chapter after it gets air.
  *
- * recording.html and streaming-guidelines.html have no [section] wrapper at all — their chapters are
+ * recording.html and streaming-guidelines.html have no [section] wrapper at all. Their chapters are
  * direct children of [main], so the section-scoped selector alone never matched them and every
  * chapter on those two pages ran together at 8px (measured in the browser, 2026-08-04).
  */
@@ -231,8 +231,12 @@ main > h2:not(:first-child) { margin-top: var(--spacing-xxl); }
 /*
  * Only the standalone pages put [h1] directly in [main]; the index's sits inside .pk-masthead,
  * which carries its own top padding. Without this they opened flush against the viewport edge.
+ *
+ * The bottom half is a second, separate gap the first pass missed: [h1] is margin 0 globally, so
+ * fixing only the top left the title still touching its own first paragraph (owner-reported twice).
+ * 24px, larger than the 16px under an [h2], because the display-size title needs more air under it.
  */
-main > h1 { margin-top: var(--spacing-xxl); }
+main > h1 { margin: var(--spacing-xxl) 0 var(--spacing-lg-xl); }
 
 main p, main li { max-width: 46rem; }
 main p { margin: 0 0 var(--spacing-md); }
@@ -505,10 +509,6 @@ a:hover { color: var(--colors-accent-base); }
 <p>저희는 이것을 창작자가 알아서 피해 가야 할 문제가 아니라 저희가 소재를 잘못 고른 결함이라고 봅니다. 실제로 창작자들이 이 때문에 불편을 겪는다면 Content ID에 등록되지 않은 곡으로 갈아끼울 생각입니다. 겪으셨다면 알려주세요. 저희가 움직이는 데 필요한 신호가 바로 그것입니다.</p>
 <h2>전체 화면 캡처가 잘려 보인다면</h2>
 <p>게임이 아니라 OBS 장면 구성 문제입니다. 모니터 해상도가 OBS의 <strong>기본(캔버스) 해상도</strong>보다 커서 소스가 캔버스 밖으로 나간 것입니다. 미리 보기에서 해당 소스를 선택하고 <strong>Ctrl+F</strong>(<em>화면에 맞추기</em>)를 누르세요.</p>
-<h2>Linux와 macOS</h2>
-<p><strong>저희 쪽에서 확인하지 않았고, 확인할 계획도 없습니다.</strong> 캡처와 관련해 빌드에 플랫폼별로 다른 부분은 없고 DRM이 없다는 것은 어디서나 마찬가지입니다. 다만 캡처 점검 목록을 돌려본 것은 Windows뿐이라, Linux와 macOS에서 확인했다고는 말씀드리지 않겠습니다. 그쪽에서 걸리는 게 있으면 알려주세요. 고치거나 문서에 남기겠습니다.</p>
-<hr>
-<p><em>전체 QA 기록이 담긴 <code>milestones/qa/obs-capture-checklist.md</code>와 함께 관리합니다. 스트리머·유튜버 대상 아웃리치 템플릿(M20 Phase 8)에서 이 문서를 참조합니다.</em></p>
 </main>
 <footer class="pk-footer">
 <p><a href="index.html">프레스킷</a></p>

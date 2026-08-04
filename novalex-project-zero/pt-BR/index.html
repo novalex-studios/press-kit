@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Novalex Project Zero — Press kit</title>
+<title>Novalex Project Zero: Press kit</title>
 <meta name="description" content="Tycoon automotivo por turnos. Projete cada modelo do zero, comande as fábricas, acerte o preço e vença na engenharia uma concorrência que cresce até 30 concorrentes com IA ao longo de um século sobre rodas. Erga a montadora que resiste ao tempo — ou quebre tentando.">
-<meta property="og:title" content="Novalex Project Zero — Press kit">
+<meta property="og:title" content="Novalex Project Zero: Press kit">
 <meta property="og:description" content="Tycoon automotivo por turnos. Projete cada modelo do zero, comande as fábricas, acerte o preço e vença na engenharia uma concorrência que cresce até 30 concorrentes com IA ao longo de um século sobre rodas. Erga a montadora que resiste ao tempo — ou quebre tentando.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://novalex-studios.github.io/press-kit/novalex-project-zero/pt-BR/">
@@ -226,7 +226,7 @@ h1 {
 
 h2 {
   /*
-   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it —
+   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it;
    * the rule looked like it belonged to the text, not the heading. 16px separates the two without
    * competing with the 48px that opens a new chapter.
    */
@@ -241,10 +241,10 @@ h2 {
 
 /*
  * The store copy's own [h2] chapters render INSIDE the About section, so they are not the section's
- * first child and get no separation from the paragraph above — the whole page reads as one block.
+ * first child and get no separation from the paragraph above, so the whole page reads as one block.
  * The section's own heading keeps its flush top; every chapter after it gets air.
  *
- * recording.html and streaming-guidelines.html have no [section] wrapper at all — their chapters are
+ * recording.html and streaming-guidelines.html have no [section] wrapper at all. Their chapters are
  * direct children of [main], so the section-scoped selector alone never matched them and every
  * chapter on those two pages ran together at 8px (measured in the browser, 2026-08-04).
  */
@@ -254,8 +254,12 @@ main > h2:not(:first-child) { margin-top: var(--spacing-xxl); }
 /*
  * Only the standalone pages put [h1] directly in [main]; the index's sits inside .pk-masthead,
  * which carries its own top padding. Without this they opened flush against the viewport edge.
+ *
+ * The bottom half is a second, separate gap the first pass missed: [h1] is margin 0 globally, so
+ * fixing only the top left the title still touching its own first paragraph (owner-reported twice).
+ * 24px, larger than the 16px under an [h2], because the display-size title needs more air under it.
  */
-main > h1 { margin-top: var(--spacing-xxl); }
+main > h1 { margin: var(--spacing-xxl) 0 var(--spacing-lg-xl); }
 
 main p, main li { max-width: 46rem; }
 main p { margin: 0 0 var(--spacing-md); }
