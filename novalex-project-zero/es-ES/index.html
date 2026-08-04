@@ -147,8 +147,6 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-/* ---- layout ------------------------------------------------------------- */
-
 .pk-shell {
   max-width: 68rem;
   margin: 0 auto;
@@ -156,8 +154,6 @@ body {
 }
 
 main > section { margin-top: var(--spacing-xxl); }
-
-/* ---- language switcher -------------------------------------------------- */
 
 .pk-langbar {
   border-bottom: 1px solid var(--colors-line-base);
@@ -192,8 +188,6 @@ main > section { margin-top: var(--spacing-xxl); }
   font-weight: var(--font-weight-semibold);
 }
 
-/* ---- masthead ----------------------------------------------------------- */
-
 .pk-masthead { padding-top: var(--spacing-xxl); }
 
 .pk-eyebrow {
@@ -222,14 +216,8 @@ h1 {
   line-height: var(--line-height-snug);
 }
 
-/* ---- headings and copy -------------------------------------------------- */
-
 h2 {
-  /*
-   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it;
-   * the rule looked like it belonged to the text, not the heading. 16px separates the two without
-   * competing with the 48px that opens a new chapter.
-   */
+
   margin: 0 0 var(--spacing-lg);
   padding-bottom: var(--spacing-xs);
   border-bottom: 1px solid var(--colors-line-base);
@@ -239,26 +227,9 @@ h2 {
   letter-spacing: var(--letter-spacing-tight);
 }
 
-/*
- * The store copy's own [h2] chapters render INSIDE the About section, so they are not the section's
- * first child and get no separation from the paragraph above, so the whole page reads as one block.
- * The section's own heading keeps its flush top; every chapter after it gets air.
- *
- * recording.html and streaming-guidelines.html have no [section] wrapper at all. Their chapters are
- * direct children of [main], so the section-scoped selector alone never matched them and every
- * chapter on those two pages ran together at 8px (measured in the browser, 2026-08-04).
- */
 main > section > h2:not(:first-child),
 main > h2:not(:first-child) { margin-top: var(--spacing-xxl); }
 
-/*
- * Only the standalone pages put [h1] directly in [main]; the index's sits inside .pk-masthead,
- * which carries its own top padding. Without this they opened flush against the viewport edge.
- *
- * The bottom half is a second, separate gap the first pass missed: [h1] is margin 0 globally, so
- * fixing only the top left the title still touching its own first paragraph (owner-reported twice).
- * 24px, larger than the 16px under an [h2], because the display-size title needs more air under it.
- */
 main > h1 { margin: var(--spacing-xxl) 0 var(--spacing-lg-xl); }
 
 main p, main li { max-width: 46rem; }
@@ -270,8 +241,6 @@ strong { color: var(--colors-text-base); font-weight: var(--font-weight-semibold
 
 a { color: var(--colors-accent-text); }
 a:hover { color: var(--colors-accent-base); }
-
-/* ---- fact sheet --------------------------------------------------------- */
 
 .pk-factsheet dl {
   display: grid;
@@ -301,8 +270,6 @@ a:hover { color: var(--colors-accent-base); }
 
 .pk-factsheet dd { background: var(--colors-surface-raised); overflow-wrap: anywhere; }
 
-/* ---- trailer ------------------------------------------------------------ */
-
 .pk-trailer-frame {
   position: relative;
   width: 100%;
@@ -321,31 +288,12 @@ a:hover { color: var(--colors-accent-base); }
   border: 0;
 }
 
-/* ---- media gallery ------------------------------------------------------ */
-
 .pk-media-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: var(--spacing-lg);
 }
 
-/*
- * The seven clips have different native aspect ratios, so left alone each tile is a different height
- * and the captions sit on ragged baselines. Every image therefore gets an identical box with
- * object-fit contain -- uniform tiles, and nothing cropped out of a UI capture the way cover would.
- * A margin-top of auto on the caption pins it to the bottom, so captions align even when one wraps
- * to two lines.
- *
- * The box aspect must stay BELOW the narrowest clip's, and that is the whole reason for the number.
- * All seven clips are 1170px wide and differ only in height, so the ratios run 1.34 (component
- * design, 1170x876, the tallest) to 1.47 (event, 1170x794). At the old 16:10 = 1.60 every clip was
- * taller than its box, so contain scaled each one by HEIGHT and the tallest rendered visibly the
- * narrowest -- owner-reported 2026-08-04 as "one animation is visibly narrower". At 4:3 = 1.333 every
- * clip is wider than its box instead, so contain scales them all by WIDTH and each fills the tile
- * edge to edge. Raising this above 1.34 reintroduces the defect for whichever clip is tallest.
- *
- * No backticks in this file: the stylesheet is a JS template literal, so a backtick ends the string.
- */
 .pk-media-grid figure {
   display: flex;
   flex-direction: column;
@@ -359,12 +307,11 @@ a:hover { color: var(--colors-accent-base); }
 .pk-media-grid img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1170 / 816;
   object-fit: contain;
   background: var(--colors-surface-panel);
 }
 
-/* The tile is a button, so it must not look like one: no chrome, just a pointer affordance. */
 .pk-media-open {
   display: block;
   width: 100%;
@@ -375,8 +322,6 @@ a:hover { color: var(--colors-accent-base); }
 }
 
 .pk-media-open:focus-visible { outline: 2px solid var(--colors-accent-base); outline-offset: -2px; }
-
-/* ---- media lightbox ----------------------------------------------------- */
 
 .pk-lightbox {
   position: fixed;
@@ -433,8 +378,6 @@ a:hover { color: var(--colors-accent-base); }
   font-size: var(--font-size-caption);
 }
 
-/* ---- downloads / calls to action ---------------------------------------- */
-
 .pk-actions { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); }
 
 .pk-button {
@@ -458,8 +401,6 @@ a:hover { color: var(--colors-accent-base); }
 
 .pk-button--primary:hover { background: var(--colors-accent-secondary); color: var(--colors-accent-on); }
 
-/* ---- grant -------------------------------------------------------------- */
-
 .pk-grant {
   padding: var(--spacing-lg);
   border: 1px solid var(--colors-line-base);
@@ -469,8 +410,6 @@ a:hover { color: var(--colors-accent-base); }
 
 .pk-grant p:last-child { margin-bottom: 0; }
 .pk-grant p { color: var(--colors-text-muted); font-size: var(--font-size-caption); }
-
-/* ---- suggest banner ----------------------------------------------------- */
 
 #press-kit-suggest-banner:not([hidden]) {
   display: flex;
@@ -496,8 +435,6 @@ a:hover { color: var(--colors-accent-base); }
   cursor: pointer;
 }
 
-/* ---- footer ------------------------------------------------------------- */
-
 .pk-footer {
   margin-top: var(--spacing-xxxl);
   padding-top: var(--spacing-lg);
@@ -505,8 +442,6 @@ a:hover { color: var(--colors-accent-base); }
   color: var(--colors-text-faint);
   font-size: var(--font-size-caption);
 }
-
-/* ---- narrow screens ----------------------------------------------------- */
 
 @media (max-width: 40rem) {
   .pk-shell, .pk-langbar nav { padding-left: var(--spacing-md); padding-right: var(--spacing-md); }
