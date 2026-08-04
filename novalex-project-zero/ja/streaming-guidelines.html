@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>配信ガイドライン</title>
+<style>
+:root {
+  --colors-surface-bg: #151210;
+  --colors-surface-raised: #1b1714;
+  --colors-surface-panel: #1e1a16;
+  --colors-surface-sidebar: #171310;
+  --colors-surface-input: #14100d;
+  --colors-surface-track: #2b251e;
+  --colors-text-base: #ede7dd;
+  --colors-text-muted: #a89d8d;
+  --colors-text-faint: #7a7060;
+  --colors-accent-base: #e8a33d;
+  --colors-accent-text: #f0b45c;
+  --colors-accent-on: #201607;
+  --colors-accent-secondary: #4fb3a9;
+  --colors-line-base: #322b23;
+  --colors-line-strong: #4a4033;
+  --colors-semantic-success: #7dc47f;
+  --colors-semantic-danger: #e0655a;
+  --colors-semantic-warning: #e3b95c;
+  --colors-crown-gold: #e8c14a;
+  --colors-crown-silver: #c4ccd4;
+  --colors-scrim-base: rgba(0, 0, 0, 0.6);
+  --colors-scrim-strong: rgba(0, 0, 0, 0.75);
+  --colors-scrim-subtle: rgba(0, 0, 0, 0.25);
+  --colors-transparent: rgba(0, 0, 0, 0);
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.25rem;
+  --spacing-md: 0.5rem;
+  --spacing-md-lg: 0.75rem;
+  --spacing-lg: 1rem;
+  --spacing-lg-xl: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-xxl: 3rem;
+  --spacing-xxxl: 4rem;
+  --layout-screen-max-width: 1440px;
+  --layout-screen-max-width-wide: 1760px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --elevation-sm: 0 2px 10px rgba(0, 0, 0, 0.35);
+  --elevation-lg: 0 12px 34px rgba(0, 0, 0, 0.5);
+  --chart-grid-line: rgba(237, 231, 221, 0.07);
+  --chart-band-boom: rgba(125, 196, 127, 0.3);
+  --chart-band-bust: rgba(224, 101, 90, 0.3);
+  --chart-spark-up: #7dc47f;
+  --chart-spark-down: #e0655a;
+  --chart-spark-accent: #e8a33d;
+  --state-active-bg: rgba(232, 163, 61, 0.1);
+  --state-active-border: rgba(232, 163, 61, 0.25);
+  --state-hover: rgba(237, 231, 221, 0.05);
+  --state-endturn-glow: 0 4px 18px rgba(232, 163, 61, 0.35);
+  --state-thumb-ring: #1e1a16;
+  --state-focus-ring: #e8a33d;
+  --state-pulse-glow-rest: 0 0 0 0 rgba(232, 163, 61, 0.55);
+  --state-pulse-glow-peak: 0 0 0 5px rgba(232, 163, 61, 0);
+  --backdrop-body: radial-gradient(1100px 480px at 22% -8%, rgba(232, 163, 61, 0.075), transparent 62%), radial-gradient(900px 500px at 108% 112%, rgba(79, 179, 169, 0.05), transparent 60%), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.012) 0 1px, transparent 1px 3px), var(--colors-surface-bg);
+  --backdrop-panel: linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0) 42%);
+  --backdrop-sidebar: linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 30%);
+  --backdrop-topbar: linear-gradient(180deg, rgba(255, 255, 255, 0.022), transparent);
+  --backdrop-ambient: 1;
+  --font-family: 'Noto Sans Variable', 'Noto Sans JP Variable', 'Noto Sans KR Variable', 'Noto Sans SC Variable', 'Noto Sans TC Variable', sans-serif;
+  --font-display: 'Oswald Variable', 'Noto Sans Variable', 'Noto Sans JP Variable', 'Noto Sans KR Variable', 'Noto Sans SC Variable', 'Noto Sans TC Variable', sans-serif;
+  --font-brand: 'Segoe UI', 'Noto Sans Variable', Arial, sans-serif;
+  --font-size-caption: 0.833rem;
+  --font-size-body: 1rem;
+  --font-size-h2: 1.25rem;
+  --font-size-h1: 1.563rem;
+  --font-size-display: 1.953rem;
+  --font-size-micro: 0.6875rem;
+  --font-size-big-num: 1.875rem;
+  --font-size-huge-num: 2.5rem;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --letter-spacing-tight: 0.02em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.08em;
+  --letter-spacing-widest: 0.13em;
+  --line-height-tight: 1.25;
+  --line-height-snug: 1.4;
+  --line-height-normal: 1.5;
+  --motion-duration-fast: 120ms;
+  --motion-duration-base: 180ms;
+  --motion-ease: cubic-bezier(0.2, 0, 0, 1);
+  --motion-duration-entrance: 2400ms;
+  --motion-duration-ambient-glow: 20s;
+  --motion-duration-ambient-grid: 28s;
+  --motion-duration-ambient-motes: 30s;
+  --layers-ai-processing: 150;
+  --layers-nav-dropdown: 200;
+  --layers-new-game-wizard: 400;
+  --layers-end-of-run: 500;
+  --layers-app-notice: 500;
+  --layers-screen-dialog: 600;
+  --layers-screen-dialog-sub: 610;
+  --layers-advisor-scrim: 650;
+  --layers-advisor-panel: 651;
+  --layers-advisor-button: 660;
+  --layers-demo-notice: 670;
+  --layers-save-notice: 700;
+  --layers-event-dialog: 750;
+  --layers-turn-report: 900;
+  --layers-turn-report-sub: 910;
+  --layers-reports-over-turn: 920;
+  --layers-tutorial: 930;
+  --layers-too-small: 1000;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--colors-surface-bg);
+  color: var(--colors-text-base);
+  font-family: var(--font-family);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-normal);
+  -webkit-text-size-adjust: 100%;
+}
+
+/* ---- layout ------------------------------------------------------------- */
+
+.pk-shell {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg) var(--spacing-xxxl);
+}
+
+main > section { margin-top: var(--spacing-xxl); }
+
+/* ---- language switcher -------------------------------------------------- */
+
+.pk-langbar {
+  border-bottom: 1px solid var(--colors-line-base);
+  background: var(--colors-surface-sidebar);
+}
+
+.pk-langbar nav { max-width: 68rem; margin: 0 auto; padding: var(--spacing-sm) var(--spacing-lg); }
+
+.pk-langbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs) var(--spacing-sm);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pk-langbar a {
+  display: inline-block;
+  padding: 0.15rem var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  color: var(--colors-text-muted);
+  font-size: var(--font-size-caption);
+  text-decoration: none;
+}
+
+.pk-langbar a:hover { background: var(--state-hover); color: var(--colors-text-base); }
+
+.pk-langbar a[aria-current="true"] {
+  background: var(--state-active-bg);
+  color: var(--colors-accent-text);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* ---- masthead ----------------------------------------------------------- */
+
+.pk-masthead { padding-top: var(--spacing-xxl); }
+
+.pk-eyebrow {
+  margin: 0 0 var(--spacing-xs);
+  color: var(--colors-accent-text);
+  font-size: var(--font-size-micro);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-widest);
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--font-size-display);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-tight);
+  line-height: var(--line-height-tight);
+}
+
+.pk-tagline {
+  max-width: 46rem;
+  margin: var(--spacing-md) 0 0;
+  color: var(--colors-text-muted);
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-snug);
+}
+
+/* ---- headings and copy -------------------------------------------------- */
+
+h2 {
+  margin: 0 0 var(--spacing-md);
+  padding-bottom: var(--spacing-xs);
+  border-bottom: 1px solid var(--colors-line-base);
+  font-family: var(--font-display);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+/*
+ * The store copy's own [h2] chapters render INSIDE the About section, so they are not the section's
+ * first child and get no separation from the paragraph above — the whole page reads as one block.
+ * The section's own heading keeps its flush top; every chapter after it gets air.
+ */
+main > section > h2:not(:first-child) { margin-top: var(--spacing-xxl); }
+
+main p, main li { max-width: 46rem; }
+main p { margin: 0 0 var(--spacing-md); }
+main ul { padding-left: var(--spacing-md-lg); }
+main li { margin-bottom: var(--spacing-xs); }
+
+strong { color: var(--colors-text-base); font-weight: var(--font-weight-semibold); }
+
+a { color: var(--colors-accent-text); }
+a:hover { color: var(--colors-accent-base); }
+
+/* ---- fact sheet --------------------------------------------------------- */
+
+.pk-factsheet dl {
+  display: grid;
+  grid-template-columns: minmax(9rem, 14rem) 1fr;
+  gap: 0;
+  margin: 0;
+  border: 1px solid var(--colors-line-base);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.pk-factsheet dt, .pk-factsheet dd {
+  margin: 0;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-top: 1px solid var(--colors-line-base);
+}
+
+.pk-factsheet dt:first-of-type, .pk-factsheet dt:first-of-type + dd { border-top: 0; }
+
+.pk-factsheet dt {
+  background: var(--colors-surface-panel);
+  color: var(--colors-text-muted);
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+.pk-factsheet dd { background: var(--colors-surface-raised); overflow-wrap: anywhere; }
+
+/* ---- trailer ------------------------------------------------------------ */
+
+.pk-trailer-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--elevation-lg);
+  background: var(--colors-surface-panel);
+}
+
+.pk-trailer-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ---- media gallery ------------------------------------------------------ */
+
+.pk-media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: var(--spacing-lg);
+}
+
+/*
+ * The seven clips have different native aspect ratios (the component designer is a narrow panel, the
+ * car designer is full-width), so left alone each tile is a different height and the captions sit on
+ * ragged baselines. Every image therefore gets an identical 16:10 box with object-fit contain --
+ * uniform tiles, and nothing cropped out of a UI capture the way cover would. A margin-top of auto on
+ * the caption pins it to the bottom, so captions align even when one wraps to two lines.
+ *
+ * No backticks in this file: the stylesheet is a JS template literal, so a backtick ends the string.
+ */
+.pk-media-grid figure {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  border: 1px solid var(--colors-line-base);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--colors-surface-raised);
+}
+
+.pk-media-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: contain;
+  background: var(--colors-surface-panel);
+}
+
+/* The tile is a button, so it must not look like one: no chrome, just a pointer affordance. */
+.pk-media-open {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
+.pk-media-open:focus-visible { outline: 2px solid var(--colors-accent-base); outline-offset: -2px; }
+
+/* ---- media lightbox ----------------------------------------------------- */
+
+.pk-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-lg);
+  background: var(--colors-scrim-strong);
+}
+
+.pk-lightbox[hidden] { display: none; }
+
+.pk-lightbox-inner {
+  position: relative;
+  max-width: min(96rem, 100%);
+  max-height: 100%;
+  overflow: auto;
+  border: 1px solid var(--colors-line-base);
+  border-radius: var(--radius-md);
+  background: var(--colors-surface-panel);
+}
+
+.pk-lightbox-img { display: block; max-width: 100%; height: auto; }
+
+.pk-lightbox-caption {
+  margin: 0;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-top: 1px solid var(--colors-line-base);
+  color: var(--colors-text-muted);
+}
+
+.pk-lightbox-close {
+  position: absolute;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 1px solid var(--colors-line-base);
+  border-radius: var(--radius-md);
+  background: var(--colors-surface-raised);
+  color: var(--colors-text-base);
+  font-size: var(--font-size-h2);
+  line-height: 1;
+  cursor: pointer;
+}
+
+.pk-media-grid figcaption {
+  margin-top: auto;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-top: 1px solid var(--colors-line-base);
+  color: var(--colors-text-muted);
+  font-size: var(--font-size-caption);
+}
+
+/* ---- downloads / calls to action ---------------------------------------- */
+
+.pk-actions { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-md); }
+
+.pk-button {
+  display: inline-block;
+  padding: var(--spacing-sm) var(--spacing-md-lg);
+  border: 1px solid var(--colors-line-strong);
+  border-radius: var(--radius-sm);
+  background: var(--colors-surface-raised);
+  color: var(--colors-text-base);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+}
+
+.pk-button:hover { background: var(--state-hover); color: var(--colors-text-base); }
+
+.pk-button--primary {
+  border-color: var(--colors-accent-base);
+  background: var(--colors-accent-base);
+  color: var(--colors-accent-on);
+}
+
+.pk-button--primary:hover { background: var(--colors-accent-secondary); color: var(--colors-accent-on); }
+
+/* ---- grant -------------------------------------------------------------- */
+
+.pk-grant {
+  padding: var(--spacing-lg);
+  border: 1px solid var(--colors-line-base);
+  border-radius: var(--radius-md);
+  background: var(--colors-surface-panel);
+}
+
+.pk-grant p:last-child { margin-bottom: 0; }
+.pk-grant p { color: var(--colors-text-muted); font-size: var(--font-size-caption); }
+
+/* ---- suggest banner ----------------------------------------------------- */
+
+#press-kit-suggest-banner:not([hidden]) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  background: var(--colors-accent-base);
+  color: var(--colors-accent-on);
+  font-size: var(--font-size-caption);
+}
+
+#press-kit-suggest-banner a { color: var(--colors-accent-on); font-weight: var(--font-weight-semibold); }
+
+#press-kit-suggest-banner button {
+  padding: 0.1rem var(--spacing-sm);
+  border: 1px solid var(--colors-accent-on);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--colors-accent-on);
+  font: inherit;
+  cursor: pointer;
+}
+
+/* ---- footer ------------------------------------------------------------- */
+
+.pk-footer {
+  margin-top: var(--spacing-xxxl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--colors-line-base);
+  color: var(--colors-text-faint);
+  font-size: var(--font-size-caption);
+}
+
+/* ---- narrow screens ----------------------------------------------------- */
+
+@media (max-width: 40rem) {
+  .pk-shell, .pk-langbar nav { padding-left: var(--spacing-md); padding-right: var(--spacing-md); }
+  .pk-factsheet dl { grid-template-columns: 1fr; }
+  .pk-factsheet dt { border-top: 1px solid var(--colors-line-base); padding-bottom: 0; }
+  .pk-factsheet dt:first-of-type + dd { border-top: 0; }
+  .pk-factsheet dd { padding-top: var(--spacing-xs); }
+}
+
+</style>
+</head>
+<body>
+<div class="pk-shell">
+<main>
+<h1>配信ガイドライン</h1>
+<p><em>本ガイドラインは、本作の唯一の開発者である Christian Petry（スイス在住）が発行しています。別法人としての スタジオは存在せず、ここでの許諾はこの個人が直接与えるものです。本ページの範囲を超える商用利用のお問い合わせは studios.novalex@gmail.com まで。最終更新：2026-08-04</em></p>
+<h2>要点</h2>
+<p>本作のプレイ動画は、録画・配信・収益化のいずれも自由に行えます。事前の申請は不要で、別途のライセンス契約も 必要ありません。ネタバレの解禁日も、公開してよい範囲の上限も、どこを見せてよいかという制限もありません。この許諾は 体験版、製品版、そして今後リリースするすべての追加コンテンツ——アップデート、DLC、続編——に自動的に及びます。 新しいものが出るたびに本ページを確認し直す必要はありません。</p>
+<h2>許可していること</h2>
+<ul>
+<li><strong>録画と配信</strong>：生放送でも編集済み動画でも、形式や尺の制限なく行えます。</li>
+<li><strong>その動画の収益化</strong>：プラットフォームの広告、チャンネルメンバーシップ、サブスクリプション、スーパーチャット および同等の機能、スポンサー契約や案件動画のいずれも許可しています。</li>
+<li><strong>有料動画・メンバー限定動画の公開</strong>：ペイウォールの内側、チャンネルメンバーシップの特典、Patreon や Fanbox の プラン、その他あらゆる購読者限定の公開形態を含みます。日本のガイドラインでは有料動画を別項目として扱い、既定で 「不可」とすることが多くありますが、本作では<strong>可</strong>です。制限はありません。</li>
+<li><strong>サムネイル素材の利用</strong>：プレスキットのキーアート、ロゴ、スクリーンショットは、本作を扱う動画のサムネイル、 チャンネルアート、概要欄で利用できます。</li>
+</ul>
+<h2>対象プラットフォーム</h2>
+<p>YouTube、Twitch、TikTok、X、niconico、ツイキャス、bilibili、Chzzk、SOOP、VK Video ほか、同種の動画・ライブ配信 サービスが対象です。この一覧はあくまで例示で、すべてを挙げたものではありません。一覧に名前のないサービスでも、 許諾はそのまま適用されます。</p>
+<h2>ネタバレ・公開範囲の制限はありません</h2>
+<p>エンディングを含め、ゲームのどの部分でも、遊べるようになったその日から公開してかまいません。解禁日も、章の 上限も、「ここから先は見せないでください」という線引きも設けていません。</p>
+<h2>権利の帰属</h2>
+<p>本作および素材の権利は当方が保持します。本ページはそれらを動画で利用する許諾を与えるものであり、権利そのものを 移転するものではありません。他方、あなたが撮った映像、あなたの実況、あなたの編集——つまりあなたの動画は、 あなたのものです。本ページがそこにライセンスを主張することはありませんし、当方への権利譲渡をお願いすることも ありません。</p>
+<h2>許可していないこと</h2>
+<p>こちらは 3 点だけです。</p>
+<ul>
+<li>ゲーム本体、ビルド、素材ファイルそのものの再配布。映像は自由ですが、ファイルは配布しないでください。</li>
+<li>本作やそのプレイ動画を、自作であるかのように、あるいは当方の公式リリースであるかのように見せること。</li>
+<li>当方が実際には後援・協賛・提携していないのに、そう受け取れる形で本作の名称・ロゴ・素材を使うこと。</li>
+</ul>
+<p><strong>RTA 向けツールとアクセシビリティ向けツールは、上記の再配布禁止の対象外です。</strong> オートスプリッター、練習用 ツール、チャート検証用の改造といった RTA 向けツール、および入力リマッパー、色覚サポートフィルター、 スクリーンリーダー連携といったアクセシビリティ向けツールは、動作に必要な改変済みゲームファイルを同梱する場合でも 許可します。どちらについても「これはビルドの配布に当たるのか」と迷わずに済むよう、名指しで書いておきます。</p>
+<h2>VTuber・企業所属タレントの方へ</h2>
+<p>本許諾は、VTuber の方にも、企業や事務所に所属するタレントの方にも、個人の配信者と同じ条件で適用されます。 所属タレントの方が当方と個別に契約を結ぶ必要はありませんし、配信前に所属企業から当方へご連絡いただく必要も ありません。タレントご自身の契約に基づいて事務所と分配される収益は、当方が関与するところではなく、本許諾にも 影響しません。</p>
+<h2>音声と Content ID</h2>
+<p><strong>ひとつだけご注意いただきたい点があります。申し立ての通知で知るより、当方からお伝えしておきたい内容です。</strong> 効果音は CC0 で、申し立てのリスクはありません。一方、楽曲は Pixabay Content License に基づいて当方がライセンスを 受けたもので、<strong>各曲が YouTube Content ID に登録されています</strong>。そのため、本作の楽曲が入った動画には自動の 申し立てが付くことがあります。申し立ては違反警告（ストライク）ではありませんが、動画に広告が表示されたり、その 収益が別のところへ回ったりすることがあります。収益化されるのであれば、音楽の音量スライダーを 0 にして、ご自身の BGM を重ねてください。効果音のスライダーは別になっているので、ゲームらしい音はそのまま残ります。</p>
+<p>OBS の設定や音声ソースの落とし穴を含む詳細は、本ページ下部からリンクしている収録ノートにまとめています。</p>
+<h2>本ページの範囲を超える商用利用</h2>
+<p>ここに書かれていない用途——放送・テレビでの利用、当方が発注する有料のプロモーション、動画以外の商品への本作の 利用、e スポーツや大会のライセンスなど——については、個別のご相談が必要です。studios.novalex@gmail.com まで ご連絡ください。</p>
+<h2>適用されるバージョン</h2>
+<p>本ページを改定した場合、あなたの動画に適用されるのは、投稿した時点で有効だったバージョンです。後から誰かが 視聴した時点で公開されているバージョンではありません。最終更新日は冒頭に記載しており、過去のすべての バージョンはプロジェクトの Git 履歴に残っています。</p>
+<h2>許諾の撤回</h2>
+<p>当方は、全体に対しても特定の方に対しても本許諾を撤回することがありますが、行うのは重大な理由がある場合に 限ります。撤回が効力を持つのは将来に向かってのみです。つまり、撤回日より後に投稿された動画に許諾が及ばなく なる、それだけです。本許諾のもとですでに公開し、収益化した動画は、その後も恒久的に許可されたままです。 さかのぼって権利侵害に変えることはしません。事前の予告期間は設けておらず、撤回は当方が示した日付から効力を生じます。</p>
+<p>本許諾は、この撤回条項も含めて、本作またはスタジオの権利者が変わった場合にも存続します。事業を承継した オーナーやパブリッシャーも、当方と同様にこれに拘束されます。</p>
+</main>
+<footer class="pk-footer">
+<p><a href="recording.html">収録の手引き — 配信者・動画投稿者・メディアの方へ</a></p>
+</footer>
+</div>
+</body>
+</html>
