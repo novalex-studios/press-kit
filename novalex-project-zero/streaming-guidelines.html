@@ -202,7 +202,12 @@ h1 {
 /* ---- headings and copy -------------------------------------------------- */
 
 h2 {
-  margin: 0 0 var(--spacing-md);
+  /*
+   * 8px under a 20px heading that already carries a rule read as glued to the paragraph below it —
+   * the rule looked like it belonged to the text, not the heading. 16px separates the two without
+   * competing with the 48px that opens a new chapter.
+   */
+  margin: 0 0 var(--spacing-lg);
   padding-bottom: var(--spacing-xs);
   border-bottom: 1px solid var(--colors-line-base);
   font-family: var(--font-display);
@@ -215,8 +220,19 @@ h2 {
  * The store copy's own [h2] chapters render INSIDE the About section, so they are not the section's
  * first child and get no separation from the paragraph above — the whole page reads as one block.
  * The section's own heading keeps its flush top; every chapter after it gets air.
+ *
+ * recording.html and streaming-guidelines.html have no [section] wrapper at all — their chapters are
+ * direct children of [main], so the section-scoped selector alone never matched them and every
+ * chapter on those two pages ran together at 8px (measured in the browser, 2026-08-04).
  */
-main > section > h2:not(:first-child) { margin-top: var(--spacing-xxl); }
+main > section > h2:not(:first-child),
+main > h2:not(:first-child) { margin-top: var(--spacing-xxl); }
+
+/*
+ * Only the standalone pages put [h1] directly in [main]; the index's sits inside .pk-masthead,
+ * which carries its own top padding. Without this they opened flush against the viewport edge.
+ */
+main > h1 { margin-top: var(--spacing-xxl); }
 
 main p, main li { max-width: 46rem; }
 main p { margin: 0 0 var(--spacing-md); }
