@@ -330,11 +330,19 @@ a:hover { color: var(--colors-accent-base); }
 }
 
 /*
- * The seven clips have different native aspect ratios (the component designer is a narrow panel, the
- * car designer is full-width), so left alone each tile is a different height and the captions sit on
- * ragged baselines. Every image therefore gets an identical 16:10 box with object-fit contain --
- * uniform tiles, and nothing cropped out of a UI capture the way cover would. A margin-top of auto on
- * the caption pins it to the bottom, so captions align even when one wraps to two lines.
+ * The seven clips have different native aspect ratios, so left alone each tile is a different height
+ * and the captions sit on ragged baselines. Every image therefore gets an identical box with
+ * object-fit contain -- uniform tiles, and nothing cropped out of a UI capture the way cover would.
+ * A margin-top of auto on the caption pins it to the bottom, so captions align even when one wraps
+ * to two lines.
+ *
+ * The box aspect must stay BELOW the narrowest clip's, and that is the whole reason for the number.
+ * All seven clips are 1170px wide and differ only in height, so the ratios run 1.34 (component
+ * design, 1170x876, the tallest) to 1.47 (event, 1170x794). At the old 16:10 = 1.60 every clip was
+ * taller than its box, so contain scaled each one by HEIGHT and the tallest rendered visibly the
+ * narrowest -- owner-reported 2026-08-04 as "one animation is visibly narrower". At 4:3 = 1.333 every
+ * clip is wider than its box instead, so contain scales them all by WIDTH and each fills the tile
+ * edge to edge. Raising this above 1.34 reintroduces the defect for whichever clip is tallest.
  *
  * No backticks in this file: the stylesheet is a JS template literal, so a backtick ends the string.
  */
@@ -351,7 +359,7 @@ a:hover { color: var(--colors-accent-base); }
 .pk-media-grid img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 4 / 3;
   object-fit: contain;
   background: var(--colors-surface-panel);
 }
@@ -650,11 +658,10 @@ a:hover { color: var(--colors-accent-base); }
 <dt>Geliştirici</dt><dd>Novalex Studios</dd>
 <dt>Yayıncı</dt><dd>Novalex Studios (kendi yayımcılığını yapıyor)</dd>
 <dt>Kuruluş / merkez</dt><dd>2026 · İsviçre</dd>
-<dt>Çıkış tarihi / durum</dt><dd>Kasım 2026 — ücretsiz demo şu anda yayında</dd>
+<dt>Çıkış tarihi / durum</dt><dd>Kasım 2026 — ücretsiz demo 12 Ağustos 2026 tarihinde yayınlanacak</dd>
 <dt>Platformlar</dt><dd>Windows, Linux, macOS, Steam Deck, Android</dd>
 <dt>Diller</dt><dd>16 dil</dd>
 <dt>Tür</dt><dd>Tycoon / iş simülasyonu</dd>
-<dt>Fiyat</dt><dd>Daha sonra açıklanacak</dd>
 <dt>Basın iletişimi</dt><dd><a href="mailto:studios.novalex@gmail.com">studios.novalex@gmail.com</a></dd>
 <dt>Steam</dt><dd><a href="https://store.steampowered.com/app/4865360/?utm_source=press-kit&amp;utm_content=tr">https://store.steampowered.com/app/4865360/</a></dd>
 <dt>itch.io</dt><dd><a href="https://novalex-studios.itch.io/novalex-project-zero">https://novalex-studios.itch.io/novalex-project-zero</a></dd>
