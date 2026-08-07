@@ -39,7 +39,7 @@ Cada modelo sai das tuas mãos. Escolhe entre 12 tipos de carro, dimensiona o mo
 - Vigia os rivais, lê a classificação e aproveita as brechas que deixam abertas.
 - Aguenta choques de mercado e imprevistos que castigam quem se acomoda.
 - **Não há dois séculos iguais** — cada partida é gerada do zero, por isso um jogo novo baralha os rivais, o mercado e os choques que tens pela frente.
-- **Escolhe as cartas com que começas** — três níveis de dificuldade, três traços de empresa definidos na fundação e uma distribuição de perícias iniciais que decide em que és bom antes de construíres seja o que for.
+- **Escolhe as cartas com que começas** — quatro níveis de dificuldade, três traços de empresa definidos na fundação e uma distribuição de perícias iniciais que decide em que és bom antes de construíres seja o que for.
 - Sobe na classificação até ao topo do setor — ou vai à falência na tentativa.
 
 ## Lê tudo, não deixes escapar nada

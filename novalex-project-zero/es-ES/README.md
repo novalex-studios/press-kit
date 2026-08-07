@@ -39,7 +39,7 @@ La ingeniería de cada modelo está en tus manos. Elige entre 12 tipos de coche,
 - Estudia a tus rivales, lee la clasificación y métete por los huecos que dejan abiertos.
 - Sobrevive a las crisis del mercado y a los eventos que castigan a quien se confía.
 - **No hay dos siglos iguales**: cada partida arranca con su propia tirada, así que empezar de cero vuelve a barajar los rivales, el mercado y los sobresaltos que te esperan.
-- **Elige tu mano inicial**: tres niveles de dificultad, tres rasgos de empresa que escoges al fundarla y un reparto de habilidades que decide en qué eres bueno antes de fabricar nada.
+- **Elige tu mano inicial**: cuatro niveles de dificultad, tres rasgos de empresa que escoges al fundarla y un reparto de habilidades que decide en qué eres bueno antes de fabricar nada.
 - Sube en la clasificación hasta lo más alto del sector o arruínate en el intento.
 
 ## Léelo todo, que no se te escape nada

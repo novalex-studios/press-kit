@@ -39,7 +39,7 @@ Każdy model konstruujesz od zera. Wybierz jedno z 12 nadwozi, dobierz pojemnoś
 - Obserwuj rywali, czytaj rankingi i wykorzystuj luki, które zostawiają.
 - Przetrwaj wstrząsy rynkowe i wydarzenia, które nie wybaczają samozadowolenia.
 - **Każde stulecie jest inne** – każda rozgrywka ma własny seed, więc nowa gra tasuje od nowa rywali, rynek i kryzysy, które cię czekają.
-- **Rozdaj sobie inne karty na start** – trzy poziomy trudności, trzy cechy firmy wybierane przy jej zakładaniu i początkowy rozkład umiejętności, który przesądza, w czym jesteś dobry, zanim jeszcze cokolwiek zbudujesz.
+- **Rozdaj sobie inne karty na start** – cztery poziomy trudności, trzy cechy firmy wybierane przy jej zakładaniu i początkowy rozkład umiejętności, który przesądza, w czym jesteś dobry, zanim jeszcze cokolwiek zbudujesz.
 - Wespnij się na szczyt branżowego rankingu – albo zbankrutuj po drodze.
 
 ## Czytaj wszystko, nie przegap niczego

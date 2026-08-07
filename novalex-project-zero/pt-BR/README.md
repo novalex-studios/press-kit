@@ -39,7 +39,7 @@ Cada modelo sai de sua prancheta. Escolha entre 12 tipos de carro, dimensione o 
 - Espione os rivais, leia a classificação e explore as brechas que eles deixam abertas.
 - Sobreviva a choques de mercado e a eventos que cobram caro de quem se acomodou.
 - **Nenhum século se repete** — cada partida tem sua própria seed, então um jogo novo embaralha os rivais, o mercado e os choques que virão pela frente.
-- **Escolha sua mão inicial** — três níveis de dificuldade, três traços de empresa definidos na fundação e uma distribuição de habilidades que diz no que você é bom antes de a primeira peça sair da linha.
+- **Escolha sua mão inicial** — quatro níveis de dificuldade, três traços de empresa definidos na fundação e uma distribuição de habilidades que diz no que você é bom antes de a primeira peça sair da linha.
 - Suba na classificação até o topo do setor — ou quebre tentando.
 
 ## Leia tudo, não perca nada

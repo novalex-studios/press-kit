@@ -39,7 +39,7 @@ Her modelin mühendisliği sizin elinizde. 12 araç tipinden birini seçin, moto
 - Rakipleri izleyin, sıralamayı okuyun, açık bıraktıkları boşluğa girin.
 - Pazar şoklarından ve rehavete kapılanı cezalandıran olaylardan sağ çıkın.
 - **Hiçbir yüzyıl bir diğerine benzemez** — her oyun kendine özgü rastgele bir düzenle kurulur; yeni bir başlangıç rakipleri, pazarı ve başınıza gelecek şokları yeniden dağıtır.
-- **Başlangıç elinizi kendiniz seçin** — üç zorluk seviyesi, kuruluşta belirlenen üç şirket özelliği ve daha tek bir vida sıkmadan neyde iyi olacağınıza karar veren bir başlangıç yetenek dağılımı.
+- **Başlangıç elinizi kendiniz seçin** — dört zorluk seviyesi, kuruluşta belirlenen üç şirket özelliği ve daha tek bir vida sıkmadan neyde iyi olacağınıza karar veren bir başlangıç yetenek dağılımı.
 - Sıralamada sektörün zirvesine oynayın — ya da denerken batın.
 
 ## Her şeyi görün, hiçbir şeyi kaçırmayın

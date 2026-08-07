@@ -39,7 +39,7 @@ Every model is yours to engineer. Choose from 12 body types, size the engine, pi
 - Scout rivals, read the standings, and exploit the gaps they leave open.
 - Survive market shocks and events that punish the complacent.
 - **No two centuries run the same** — every run is seeded, so a new game reshuffles the rivals, the market and the shocks you will face.
-- **Change your own starting hand** — three difficulty levels, three company traits picked at founding, and a starting-skill build that decides what you are good at before you build anything.
+- **Change your own starting hand** — four difficulty levels, three company traits picked at founding, and a starting-skill build that decides what you are good at before you build anything.
 - Climb the rankings to the top of the industry — or go bankrupt trying.
 
 ## Read everything, miss nothing

@@ -12,7 +12,7 @@ Reflexe helfen hier nicht weiter. Jede Runde ist eine kalkulierte Wette: welche 
 
 Jedes Modell entsteht unter deiner Hand. Wähle aus 12 Fahrzeugtypen, leg die Motorgröße fest, such dir die Komponenten aus und feile mit fein abgestuften Reglern an der Abstimmung.
 
-- **Kompromisse abwägen** – Leistung, Komfort, Zuverlässigkeit, Kraftstoffeffizienz und Kosten ziehen in verschiedene Richtungen. Das perfekte Auto gibt es nicht, nur das passende für das Segment, das du im Visier hast.
+- **Kompromisse eingehen** – Leistung, Komfort, Zuverlässigkeit, Kraftstoffeffizienz und Kosten ziehen in verschiedene Richtungen. Das perfekte Auto gibt es nicht, nur das passende für das Segment, das du im Visier hast.
 - **Zu deinen Entscheidungen stehen** – Defekte, mit den Jahren nachlassende Werte und Facelifts entscheiden, ob ein Modell konkurrenzfähig bleibt oder sang- und klanglos aus den Verkaufszahlen verschwindet.
 - **Eine Modellpalette aufbauen, keine Eintagsfliege** – besetze die Segmente, auf die es ankommt, nimm veraltete Modelle aus dem Programm und bring jeden Nachfolger zum richtigen Zeitpunkt.
 
@@ -39,7 +39,7 @@ Jedes Modell entsteht unter deiner Hand. Wähle aus 12 Fahrzeugtypen, leg die Mo
 - Beobachte die Konkurrenz, lies die Rangliste und stoß in die Lücken, die sie offen lässt.
 - Übersteh Marktkrisen und Ereignisse, die bestrafen, wer sich zurücklehnt.
 - **Kein Jahrhundert verläuft wie das andere** – jede Partie wird neu ausgewürfelt, Konkurrenten, Markt und Krisen sind in jedem Spiel anders verteilt.
-- **Bestimme dein Blatt selbst** – drei Schwierigkeitsgrade, drei Firmenmerkmale bei der Gründung und Startpunkte, die du selbst auf deine Stärken verteilst, noch bevor das erste Auto gebaut ist.
+- **Bestimme dein Blatt selbst** – vier Schwierigkeitsgrade, drei Unternehmenseigenschaften bei der Gründung und Startpunkte, die du selbst auf deine Stärken verteilst, noch bevor das erste Auto gebaut ist.
 - Arbeite dich an die Spitze der Branche – oder geh dabei pleite.
 
 ## Alles im Blick, nichts übersehen

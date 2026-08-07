@@ -39,7 +39,7 @@ Cada modelo sale de tus manos. Elige entre 12 tipos de auto, define la cilindrad
 - Espía a tus rivales, lee el ranking de la industria y métete por los huecos que te dejan.
 - Aguanta las crisis del mercado y los eventos que le cobran caro al que se confía.
 - **No hay dos siglos iguales**: cada partida nace de su propia semilla, así que la siguiente te cambia los rivales, el mercado y los golpes que vas a recibir.
-- **Elige con qué cartas empiezas**: tres niveles de dificultad, tres rasgos de empresa que defines al fundarla y un reparto de habilidades iniciales que decide en qué eres bueno antes de fabricar nada.
+- **Elige con qué cartas empiezas**: cuatro niveles de dificultad, tres rasgos de empresa que defines al fundarla y un reparto de habilidades iniciales que decide en qué eres bueno antes de fabricar nada.
 - Trepa hasta la cima de la industria o quiebra en el intento.
 
 ## Léelo todo: que no se te escape nada

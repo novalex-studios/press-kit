@@ -39,7 +39,7 @@ Chaque modèle sort de vos mains. Choisissez parmi 12 types de voitures, dimensi
 - Surveillez vos concurrents, lisez le classement et engouffrez-vous dans les brèches qu’ils laissent.
 - Encaissez les secousses du marché et les événements qui ne pardonnent pas de s’endormir sur ses lauriers.
 - **Aucune partie ne ressemble à la précédente** — tout repart d’une nouvelle donne : les concurrents, le marché et les crises que vous aurez à traverser changent à chaque fois.
-- **Choisissez votre main de départ** — trois niveaux de difficulté, trois atouts d’entreprise choisis à la création et une répartition des compétences initiales qui fixe vos points forts avant même le premier boulon.
+- **Choisissez votre main de départ** — quatre niveaux de difficulté, trois atouts d’entreprise choisis à la création et une répartition des compétences initiales qui fixe vos points forts avant même le premier boulon.
 - Grimpez jusqu’au sommet du secteur — ou sombrez en chemin.
 
 ## Tout voir, ne rien laisser passer

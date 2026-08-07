@@ -39,7 +39,7 @@ Ogni modello nasce dalle tue mani. Parti da 12 tipi di auto, dimensiona il motor
 - Studia i rivali, leggi le classifiche e infilati nei varchi che lasciano scoperti.
 - Reggi l'urto delle crisi di mercato e degli imprevisti, che non perdonano chi resta fermo.
 - **Non esistono due secoli uguali**: ogni partita parte da un seed diverso, quindi ricominciare rimescola i rivali, il mercato e i colpi di scena che ti aspettano.
-- **Decidi con quali carte parti**: tre livelli di difficoltà, tre tratti aziendali da scegliere alla fondazione e una distribuzione delle competenze iniziali che stabilisce in cosa sei bravo prima ancora di costruire la prima auto.
+- **Decidi con quali carte parti**: quattro livelli di difficoltà, tre tratti aziendali da scegliere alla fondazione e una distribuzione delle competenze iniziali che stabilisce in cosa sei bravo prima ancora di costruire la prima auto.
 - Scala le classifiche fino alla vetta del settore, oppure fallisci nel tentativo.
 
 ## Leggi tutto, non perderti nulla
