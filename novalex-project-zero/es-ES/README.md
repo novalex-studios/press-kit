@@ -1,6 +1,6 @@
 # Press Kit
 
-Tycoon de automoción por turnos. Diseña cada modelo desde el chasis, gestiona las fábricas, afina los precios y supera en ingeniería a una competencia que crece hasta los 30 rivales con IA a lo largo de un siglo de automoción. Levanta la marca que sobreviva a todas o arruínate en el intento.
+Tycoon de automoción por turnos. Diseña cada modelo hasta el último detalle, gestiona las fábricas, afina los precios y supera en ingeniería a una competencia que crece hasta los 30 rivales con IA a lo largo de un siglo. Levanta la marca que sobreviva a todas o arruínate en el intento.
 
 {{clip:hero}}
 
@@ -8,7 +8,7 @@ Tycoon de automoción por turnos. Diseña cada modelo desde el chasis, gestiona 
 
 Aquí no se gana por reflejos. Cada turno es una apuesta meditada: qué tecnología perseguir, qué segmento defender, a cuánto vender y cuándo jugarte la empresa en una fábrica que todavía no puedes permitirte. Luego responde el mercado, responden tus rivales y tú apechugas con las consecuencias. Cien años y cinco épocas separan el taller de la sala de juntas, y lo que decidas en la primera década sigue pasando factura en la última.
 
-## Diseña coches desde el chasis
+## Diseña coches hasta el último detalle
 
 La ingeniería de cada modelo está en tus manos. Elige entre 12 tipos de coche, define la cilindrada, monta los componentes y afina el equilibrio con reguladores milimétricos.
 

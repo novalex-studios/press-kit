@@ -21,7 +21,7 @@ Ogni modello nasce dalle tue mani. Parti da 12 tipi di auto, dimensiona il motor
 {{clip:tech-tree}} Percorri un albero tecnologico storico di 103 tecnologie distribuite su cinque epoche e sblocca i motori, i materiali e le dotazioni che danno a ognuna il suo volto.
 
 - Scegli il momento giusto per investire in ricerca: le tue auto devono dettare il passo al mercato, non rincorrerlo.
-- Ogni tecnologia nuova ridisegna il campo delle possibilità e manda fuori gioco senza far rumore il modello più venduto del decennio scorso.
+- Ogni nuova tecnologia allarga i confini di ciò che puoi costruire e manda fuori gioco senza far rumore il modello più venduto del decennio scorso.
 
 ## Guida l'azienda in ogni suo reparto
 

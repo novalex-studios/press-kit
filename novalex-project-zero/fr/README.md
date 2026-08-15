@@ -14,7 +14,7 @@ Chaque modèle sort de vos mains. Choisissez parmi 12 types de voitures, dimensi
 
 - **Arbitrez les compromis** — performance, confort, fiabilité, économie de carburant et coût de revient tirent chacun de leur côté. La voiture parfaite n’existe pas ; il n’y a que la bonne voiture pour le segment que vous visez.
 - **Assumez vos choix** — les défauts remontent, les caractéristiques vieillissent, les restylages retardent l’échéance : c’est là que se décide si un modèle tient encore la route ou s’efface peu à peu du marché.
-- **Construisez une gamme, pas un coup d’éclat** — couvrez les segments qui comptent, retirez ce qui a fait son temps, et sortez chaque remplaçante au bon moment.
+- **Construisez une gamme, pas un feu de paille** — couvrez les segments qui comptent, retirez ce qui a fait son temps, et sortez chaque remplaçante au bon moment.
 
 ## La recherche se joue sur des décennies
 
