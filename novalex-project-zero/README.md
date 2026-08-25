@@ -13,7 +13,7 @@ Nothing here happens on reflex. Every turn is a deliberate bet — which technol
 Every model is yours to engineer. Choose from 12 body types, size the engine, pick your components, and balance the trade-offs with fine-grained tuning sliders.
 
 - **Engineer the trade-offs** — performance, comfort, reliability, fuel economy and cost all pull against each other. There is no perfect car, only the right car for the segment you're chasing.
-- **Live with your decisions** — defects, aging stats and facelifts decide whether a model stays competitive or quietly stops selling.
+- **Live with your decisions** — defects, fading appeal and facelifts decide whether a model stays competitive or quietly stops selling.
 - **Build a lineup, not a one-hit wonder** — cover the segments that matter, retire what's gone stale, and time each successor.
 
 ## Research the tech that wins decades
