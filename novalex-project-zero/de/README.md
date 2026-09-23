@@ -1,22 +1,22 @@
 # Press Kit
 
-Rundenbasierte Autokonzern-Simulation: Konstruiere jedes Modell von Grund auf, steuere die Werke, kalkuliere jeden Cent und lass bis zu 30 KI-Konkurrenten hinter dir – ein Jahrhundert lang. Bau den Autohersteller, den es hundert Jahre später noch gibt. Oder scheitere auf dem Weg dahin.
+Rundenbasierte Autokonzern-Simulation über ein ganzes Jahrhundert: Konstruiere jedes Modell von Grund auf, steuere die Werke, unterbiete die Konkurrenz preislich und setz dich gegen bis zu 30 KI-Konkurrenten durch. Am Ende steht ein Hersteller, der Generationen überdauert – oder keiner.
 
 {{clip:hero}}
 
 **Am Anfang stehen eine Werkstatt und eine Skizze. Am Ende steht ein Hersteller, den es hundert Jahre später noch gibt.**
 
-Reflexe helfen hier nicht weiter. Jede Runde ist ein kalkuliertes Risiko: auf welche Technologie du setzt, welches Segment du verteidigst, welchen Preis du ansetzt – und wann du alles auf ein Werk setzt, das du dir eigentlich nicht leisten kannst. Dann reagiert der Markt, dann reagiert die Konkurrenz, und die Folgen trägst du. Zwischen Werkstatt und Vorstandsetage liegen fünf Epochen, und was du im ersten Jahrzehnt entscheidest, wirkt noch im letzten nach.
+Hier zählt nicht die Reaktionszeit, sondern die Rechnung. Jede Runde ist ein kalkuliertes Risiko: Auf welche Technologie setzt du, welches Segment verteidigst du, welchen Preis rufst du auf – und wann steckst du alles in ein Werk, das du dir eigentlich nicht leisten kannst? Dann reagiert der Markt, dann reagiert die Konkurrenz, und die Folgen trägst du. Zwischen Werkstatt und Vorstandsetage liegen fünf Epochen, und was du im ersten Jahrzehnt entscheidest, wirkt noch im letzten nach.
 
 ## Autos von Grund auf konstruieren
 
-Jedes Modell entsteht auf deinem Reißbrett. Wähle aus zwölf Fahrzeugtypen, leg den Hubraum fest, such dir die Komponenten aus und stimme das Fahrverhalten über feine Schieberegler ab.
+Jedes Modell entsteht auf deinem Reißbrett. Wähle aus zwölf Fahrzeugtypen, lege den Hubraum fest, suche dir die Komponenten aus und stimme das Fahrverhalten per Schieberegler fein ab.
 
-- **Kompromisse eingehen** – Leistung, Komfort, Zuverlässigkeit, Kraftstoffeffizienz und Kosten lassen sich nicht gleichzeitig maximieren. Das perfekte Auto gibt es nicht, nur das passende für das Segment, das du im Visier hast.
-- **Ein Modell altert** – Defekte und Facelifts bestimmen mit, ob es konkurrenzfähig bleibt oder sang- und klanglos vom Markt verschwindet: je älter, desto weniger Käufer.
-- **Eine Modellpalette statt eines einzelnen Treffers** – besetze die Segmente, auf die es ankommt, nimm veraltete Modelle aus dem Programm und bring jeden Nachfolger zum richtigen Zeitpunkt auf den Markt.
+- **Kompromisse eingehen** – hohe Leistung, Komfort, Zuverlässigkeit, gute Kraftstoffeffizienz und niedrige Kosten: Alles zugleich bekommst du nicht. Das perfekte Auto gibt es nicht, nur das passende für das Segment, das du im Visier hast.
+- **Die Attraktivität schwindet** – je länger ein Modell im Handel ist, desto weniger Käufer findet es. Defekte und Facelifts entscheiden mit, ob es konkurrenzfähig bleibt oder sang- und klanglos vom Markt verschwindet.
+- **Modellpalette statt Glückstreffer** – besetze die Segmente, auf die es ankommt, nimm veraltete Modelle aus dem Programm und bring jeden Nachfolger zum richtigen Zeitpunkt auf den Markt.
 
-## Forschung mit Jahrzehnten Wirkung
+## Forschung, die über Jahrzehnte nachwirkt
 
 {{clip:tech-tree}} Arbeite dich durch einen historischen Technologiebaum: 103 Technologien, fünf Epochen. Freigeschaltet werden die Motoren, Werkstoffe und Ausstattungsmerkmale, die ihre Zeit geprägt haben.
 
@@ -28,22 +28,22 @@ Jedes Modell entsteht auf deinem Reißbrett. Wähle aus zwölf Fahrzeugtypen, le
 {{clip:business}} Ein gutes Auto ist erst die halbe Miete. Bau den Betrieb dahinter auf und halte ihn am Laufen.
 
 - **Produktion** – Werke, Produktionslinien, Schichten, Umrüstzeiten. Stimme die Stückzahlen auf die Nachfrage ab, ohne am Ende auf unverkauften Wagen sitzen zu bleiben.
-- **Preise** – positioniere jedes Modell im Preis gegenüber der Konkurrenz. Unterbietest du sie, wechseln ihre Käufer zu dir; halte den Preis und lass die Marke die Arbeit machen. Senkst du ihn zu stark, gilt dein Auto einfach als billig.
-- **Finanzen** – finanziere die Entwicklung, halte die Liquidität im Griff und wachse mit Fremdkapital schneller, als es deine Bilanz eigentlich hergibt.
-- **Marke** – Marketing stärkt Reputation und Prestige, und beides entscheidet, ob Käufer dich einem Konkurrenten vorziehen, dessen Autos genauso gut sind. Lässt du einen Defekt schleifen, zieht das beides wieder nach unten. Eine Marke, der die Käufer vertrauen, verkauft Autos, die rechnerisch niemand kaufen dürfte.
+- **Preise** – leg für jedes Modell fest, wo es im Vergleich zur Konkurrenz liegt. Unterbietest du sie, wechseln Käufer zu dir. Hältst du den Preis, muss deine Marke überzeugen. Gehst du zu weit runter, gilt dein Auto schnell als billig.
+- **Finanzen** – bring das Geld für die Entwicklung auf, behalte die Liquidität im Blick und wachse mit Fremdkapital schneller, als es deine Bilanz eigentlich hergibt.
+- **Marke** – Marketing stärkt Reputation und Prestige, und beides entscheidet, ob Käufer dich einem Konkurrenten vorziehen, dessen Autos genauso gut sind. Lässt du einen Defekt schleifen, leiden beide darunter. Vertrauen die Käufer deiner Marke, verzeihen sie ihr auch ein Auto, das auf dem Papier nicht mithalten kann.
 
-## Bis zu dreißig Konkurrenten mit eigenem Kalkül
+## Konkurrenz, die nicht stillsteht
 
-{{clip:rivals}} Die Konkurrenz ist keine Kulisse. Jeder KI-Hersteller arbeitet nach derselben Logik wie du – entwickeln, kalkulieren, forschen, reagieren, Runde für Runde – und im Lauf des Jahrhunderts kommen immer neue dazu. Am Ende kämpfen bis zu 30 Konkurrenten um jeden einzelnen Verkauf.
+{{clip:rivals}} Die Konkurrenz ist keine Kulisse. Jeder KI-Hersteller spielt nach denselben Regeln wie du – entwickeln, kalkulieren, forschen, reagieren, Runde für Runde – und im Lauf des Jahrhunderts kommen immer neue dazu. Zum Schluss kämpfen bis zu 30 Konkurrenten um jeden einzelnen Käufer.
 
-- **Beobachte die Konkurrenz** – verfolge die Rangliste und stoß in die Lücken, die sie offenlässt.
-- **Übersteh Marktkrisen** – Ereignisse, die jeden bestrafen, der sich zurücklehnt.
-- **Würfle jede Partie neu aus** – andere Konkurrenten, andere Marktlage, andere Krisen.
-- **Bestimm deine Startaufstellung** – vier Schwierigkeitsgrade, drei Unternehmenseigenschaften bei der Gründung und Startpunkte, die du frei auf deine Fähigkeiten verteilst, noch bevor das erste Auto gebaut ist.
-- **Arbeite dich an die Spitze** – oder scheitere auf dem Weg dahin.
+- **Beobachte die Konkurrenz** – verfolge die Rangliste und stoß in die Lücken, die die anderen offenlassen.
+- **Übersteh Marktkrisen** – sie bestrafen jeden, der sich zurücklehnt.
+- **Würfle jede Partie neu aus** – andere Konkurrenten, eine andere Marktlage, andere Krisen.
+- **Bestimm deine Startaufstellung** – vier Schwierigkeitsgrade, zwei Unternehmenseigenschaften bei der Gründung und Startpunkte, die du frei auf deine Fähigkeiten verteilst, noch bevor das erste Auto gebaut ist.
+- **Arbeite dich an die Spitze** – sofern du nicht vorher pleitegehst.
 
-## Zahlen, die eine Frage beantworten
+## Zahlen, die Antworten liefern
 
-{{clip:reports}} Die Auswertungen zeigen dir, was die Simulation wirklich tut, damit du entscheiden kannst, statt zu raten: Unternehmenswert im Zeitverlauf, Marktanteil, Gewinnmargen, Absatz im Vergleich zur Konkurrenz, Finanzen und Liquidität, dazu die komplette Firmenchronik – 14 Auswertungen, jede auf eine Entscheidung der nächsten Runde zugeschnitten.
+{{clip:reports}} 14 Auswertungen zeigen dir, was in der Simulation wirklich passiert: Unternehmenswert im Zeitverlauf, Marktanteil, Gewinnmargen, Absatz im Vergleich zur Konkurrenz, Finanzen und Liquidität, dazu die komplette Firmenchronik. Mit ihnen triffst du die Entscheidungen der nächsten Runde nach Zahlen statt aus dem Bauch heraus.
 
-Am Ende einer Partie zeigen dir eine ausführliche Auswertung und die Bestenliste genau, wo du gelandet bist: hundert Jahre Entscheidungen, gemessen an jedem Konkurrenten, der dasselbe vorhatte. Und angefangen hat alles mit einer Skizze und einem Markennamen, den du dir selbst ausgedacht hast.
+Am Ende einer Partie zeigen dir eine ausführliche Schlussbilanz und die Bestenliste genau, wo du gelandet bist: hundert Jahre voller Entscheidungen, gemessen an allen, die dasselbe versucht haben. Und angefangen hat alles mit einer Skizze und einem Namen, den du dir selbst ausgedacht hast.
