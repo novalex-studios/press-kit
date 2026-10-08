@@ -463,18 +463,57 @@ a:hover { color: var(--colors-accent-base); }
 
   if (window.localStorage.getItem(DISMISS_KEY) === "1") return;
 
-  var preferred = (navigator.languages || [navigator.language || "en"]).map(function (tag) {
-    return tag.toLowerCase();
-  });
+  // zh is the one language whose mesh locales are scripts, not regions: zh-TW/HK/MO and any
+  // zh-Hant-* tag mean zh-Hant, zh-CN/SG and zh-Hans-* mean zh-Hans (P5i-T5).
+  function normalise(tag) {
+    var t = String(tag).toLowerCase().replace(/_/g, "-");
+    if (t.split("-")[0] !== "zh") return t;
+    var parts = t.split("-");
+    if (parts.indexOf("hant") > 0 || parts.indexOf("tw") > 0 || parts.indexOf("hk") > 0 || parts.indexOf("mo") > 0) return "zh-hant";
+    return "zh-hans";
+  }
+  function base(tag) {
+    return tag.split("-")[0];
+  }
 
+  var preferred = (navigator.languages || [navigator.language || "en"]).map(normalise);
+
+  // Walk the preferences IN ORDER (the browser ranks them): the first one the mesh can serve wins.
+  // Per preference, an exact locale match first; otherwise a separator-aware base-language match
+  // (pt-AO -> pt, never a bare string prefix) preferring, among that language's mesh entries, one
+  // listed exactly by a LATER preference, then the current page (no banner), then the first.
   var best = null;
-  for (var i = 0; i < preferred.length && !best; i++) {
-    for (var j = 0; j < MESH.length; j++) {
-      if (MESH[j].locale.toLowerCase() === preferred[i] || preferred[i].indexOf(MESH[j].locale.toLowerCase().split("-")[0]) === 0) {
+  var i;
+  var j;
+  var k;
+  for (i = 0; i < preferred.length && !best; i++) {
+    for (j = 0; j < MESH.length; j++) {
+      if (MESH[j].locale.toLowerCase() === preferred[i]) {
         best = MESH[j];
         break;
       }
     }
+    if (best) break;
+    var lang = base(preferred[i]);
+    var current = null;
+    var first = null;
+    var later = null;
+    for (j = 0; j < MESH.length; j++) {
+      var meshLocale = MESH[j].locale.toLowerCase();
+      if (base(meshLocale) !== lang) continue;
+      if (!first) first = MESH[j];
+      if (MESH[j].locale === CURRENT_LOCALE) current = MESH[j];
+    }
+    // The LATER preference the user ranks highest wins, not the mesh order.
+    for (k = i + 1; k < preferred.length && !later; k++) {
+      for (j = 0; j < MESH.length; j++) {
+        if (MESH[j].locale.toLowerCase() === preferred[k] && base(preferred[k]) === lang) {
+          later = MESH[j];
+          break;
+        }
+      }
+    }
+    best = later || current || first;
   }
 
   // Never redirects: only suggests, and only when the best match differs from the current page.
@@ -600,6 +639,7 @@ a:hover { color: var(--colors-accent-base); }
 <dt>Contacto de imprensa</dt><dd><a href="mailto:studios.novalex@gmail.com">studios.novalex@gmail.com</a></dd>
 <dt>Steam</dt><dd><a href="https://store.steampowered.com/app/4865360/?utm_source=press-kit&amp;utm_content=pt-PT">https://store.steampowered.com/app/4865360/</a></dd>
 <dt>itch.io</dt><dd><a href="https://novalex-studios.itch.io/novalex-project-zero">https://novalex-studios.itch.io/novalex-project-zero</a></dd>
+<dt>Google Play</dt><dd><a href="https://play.google.com/store/apps/details?id=ch.novalex.projectzero.lite">https://play.google.com/store/apps/details</a></dd>
 <dt>YouTube</dt><dd><a href="https://www.youtube.com/@NovalexStudios">https://www.youtube.com/@NovalexStudios</a></dd>
 </dl>
 </section>
