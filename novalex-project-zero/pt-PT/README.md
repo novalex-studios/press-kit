@@ -12,13 +12,13 @@ Aqui os reflexos não servem de nada. Cada turno é uma aposta pensada — que t
 
 Cada modelo nasce na prancheta. Escolhe entre 12 tipos de carro, dimensiona o motor, seleciona os componentes e afina o resultado ao milímetro com os controlos deslizantes.
 
-- **Gere as cedências de engenharia** — desempenho, conforto, fiabilidade, eficiência de combustível e custo puxam em sentidos opostos. Não há carro perfeito, há o carro certo para o segmento que queres conquistar.
+- **Gere as cedências de engenharia** — desempenho, conforto, fiabilidade, eficiência de combustível e custo puxam cada um para o seu lado. Não há carro perfeito, há o carro certo para o segmento que queres conquistar.
 - **Arca com as consequências** — os defeitos, a atração que se esbate e os facelifts ditam se um modelo se aguenta na luta ou vai deixando de vender sem que ninguém dê por isso.
 - **Constrói uma gama, não um êxito isolado** — cobre os segmentos que contam, retira de produção o que já passou de moda e escolhe a hora certa para cada sucessor.
 
 ## Pesquisa hoje a tecnologia que vai decidir as próximas décadas
 
-{{clip:tech-tree}} Avança por uma árvore tecnológica fiel à história, com 103 tecnologias repartidas por cinco épocas e desbloqueia os motores, os materiais e os equipamentos que marcam cada uma delas.
+{{clip:tech-tree}} Avança por uma árvore fiel à história, com 103 tecnologias repartidas por cinco épocas, e desbloqueia os motores, os materiais e os equipamentos que definem cada uma delas.
 
 - Aposta na pesquisa na altura certa e põe os teus carros à frente do mercado, em vez de os deixares a correr atrás dele.
 - Cada avanço muda o que é possível fazer — e manda para o museu, sem alarido, o campeão de vendas da década anterior.
@@ -28,7 +28,7 @@ Cada modelo nasce na prancheta. Escolhe entre 12 tipos de carro, dimensiona o mo
 {{clip:business}} Um bom carro é só metade do negócio. Monta e gere tudo o que está por trás dele.
 
 - **Produção** — fábricas, linhas de produção, turnos de trabalho e reconversão. Ajusta o volume à demanda sem ficares atolado em stock parado.
-- **Preços** — define o preço de cada modelo em função do que os rivais estão a pedir. Vende mais barato e tira-lhes clientes; mantém o preço e deixa que seja a marca a vender. Baixa-o demasiado e os compradores passam a vê-lo como um carro barato e nada mais.
+- **Preços** — define o preço de cada modelo em função do que os rivais estão a pedir. Vende mais barato e tira-lhes clientes; mantém o preço e deixa que seja a marca a vender. Baixa-o demasiado e os compradores passam a ver o modelo como um carro barato e nada mais.
 - **Finanças** — financia a I&D, controla a tesouraria e recorre ao crédito para crescer mais depressa do que o teu balanço permitiria.
 - **Marca** — o marketing constrói reputação e prestígio, e são eles que mudam a forma como os compradores te avaliam frente a um rival em tudo idêntico. Basta um defeito que te escape para ambos caírem a pique. Uma marca de confiança vende carros que, no papel, não se venderiam.
 
@@ -39,7 +39,7 @@ Cada modelo nasce na prancheta. Escolhe entre 12 tipos de carro, dimensiona o mo
 - Acompanha os rivais, lê a classificação e aproveita as brechas que deixam abertas.
 - Aguenta choques de mercado e imprevistos que castigam quem se acomoda.
 - **Não há dois séculos iguais** — cada partida é gerada do zero e volta a baralhar os rivais, o mercado e os choques que tens pela frente.
-- **Escolhe as cartas com que começas** — quatro níveis de dificuldade, duas características da empresa definidas na fundação e as perícias iniciais, que decidem aquilo em que és bom antes de construíres seja o que for.
+- **Escolhe como arrancas** — quatro níveis de dificuldade, duas características da empresa definidas na fundação e as competências iniciais, que decidem aquilo em que és bom antes de desenhares o primeiro carro.
 - Sobe na classificação até ao topo do setor — ou fica pelo caminho e vai à falência.
 
 ## Lê tudo, não deixes escapar nada

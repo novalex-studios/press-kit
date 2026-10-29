@@ -1,10 +1,10 @@
 # Press Kit
 
-A turn-based car-company tycoon. Design every model from the chassis up, run the factories, undercut on price, and out-engineer a field that grows to 30 AI rivals across a century of motoring. Build the automaker that lasts, or go bankrupt trying.
+A turn-based car-company tycoon. Design every model from the chassis up, run the factories, undercut on price, and out-engineer a field that grows to 30 AI rivals across a century of motoring. Build the carmaker that lasts, or go bankrupt trying.
 
 {{clip:hero}}
 
-**Start with a single garage and a sketch. Build the automaker that outlasts the century.**
+**Start with a single garage and a sketch. Build the carmaker that outlasts the century.**
 
 Nothing here happens on reflex. Every turn is a deliberate bet — which technology to chase, which segment to defend, what to charge, and when to stake the company on a factory you cannot yet afford. Then the market answers, your rivals answer, and you live with it. One hundred years and five eras separate the garage from the boardroom, and the decisions you make in the first decade are still compounding in the last.
 
@@ -14,14 +14,14 @@ Every model starts on your drawing board. Choose from 12 car types, size the eng
 
 - **Engineer the trade-offs** — performance, comfort, reliability, fuel economy and cost all pull against each other. There is no perfect car, only the right car for the segment you're chasing.
 - **Live with your decisions** — defects, fading appeal and facelifts decide whether a model stays competitive or quietly stops selling.
-- **Build a lineup, not a one-hit wonder** — cover the segments that matter, retire what's gone stale, and time each successor.
+- **Build a line-up, not a one-hit wonder** — cover the segments that matter, retire what's gone stale, and time each successor.
 
 ## Research the tech that wins decades
 
-{{clip:tech-tree}} Progress down a historical technology tree of 103 technologies spanning five eras, and unlock the engines, materials and features that define each era.
+{{clip:tech-tree}} Progress down a historical tree of 103 technologies spanning five eras, and unlock the engines, materials and features that define each one.
 
 - Time your research bets so your cars lead the market instead of trailing it.
-- New tech reshapes what's possible — and quietly makes last decade's bestseller obsolete.
+- New tech reshapes what's possible, and turns last decade's bestseller into a car nobody asks for.
 
 ## Run the whole business
 
@@ -39,7 +39,7 @@ Every model starts on your drawing board. Choose from 12 car types, size the eng
 - Scout rivals, read the standings, and exploit the gaps they leave open.
 - Survive market shocks and events that punish the complacent.
 - **No two centuries run the same** — every run is seeded, so a new game reshuffles the rivals, the market and the shocks you will face.
-- **Change your own starting hand** — four difficulty levels, two company traits picked at founding, and a starting-skill build that decides what you are good at before you build anything.
+- **Choose your own starting hand** — four difficulty levels, two company traits picked at founding, and a starting-skill build that decides what you are good at before you design a single car.
 - Climb the rankings to the top of the industry — or go bankrupt trying.
 
 ## Read everything, miss nothing

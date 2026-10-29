@@ -11,6 +11,7 @@
 <meta property="og:url" content="https://novalex-studios.github.io/press-kit/novalex-project-zero/ko/">
 <link rel="canonical" href="https://novalex-studios.github.io/press-kit/novalex-project-zero/ko/">
 <link rel="alternate" hreflang="en" href="https://novalex-studios.github.io/press-kit/novalex-project-zero/">
+<link rel="alternate" hreflang="cs" href="https://novalex-studios.github.io/press-kit/novalex-project-zero/cs/">
 <link rel="alternate" hreflang="de" href="https://novalex-studios.github.io/press-kit/novalex-project-zero/de/">
 <link rel="alternate" hreflang="es-419" href="https://novalex-studios.github.io/press-kit/novalex-project-zero/es-419/">
 <link rel="alternate" hreflang="es-ES" href="https://novalex-studios.github.io/press-kit/novalex-project-zero/es-ES/">
@@ -64,6 +65,7 @@
   --spacing-xxxl: 4rem;
   --layout-screen-max-width: 1440px;
   --layout-screen-max-width-wide: 1760px;
+  --layout-shell-max-width: 2300px;
   --radius-sm: 6px;
   --radius-md: 10px;
   --elevation-sm: 0 2px 10px rgba(0, 0, 0, 0.35);
@@ -89,7 +91,7 @@
   --backdrop-ambient: 1;
   --font-family: 'Noto Sans Variable', 'Noto Sans JP Variable', 'Noto Sans KR Variable', 'Noto Sans SC Variable', 'Noto Sans TC Variable', sans-serif;
   --font-display: 'Oswald Variable', 'Noto Sans Variable', 'Noto Sans JP Variable', 'Noto Sans KR Variable', 'Noto Sans SC Variable', 'Noto Sans TC Variable', sans-serif;
-  --font-brand: 'Segoe UI', 'Noto Sans Variable', Arial, sans-serif;
+  --font-brand: 'Noto Sans Variable', sans-serif;
   --font-size-caption: 0.833rem;
   --font-size-body: 1rem;
   --font-size-h2: 1.25rem;
@@ -459,7 +461,7 @@ a:hover { color: var(--colors-accent-base); }
 (function () {
   var DISMISS_KEY = "press-kit-suggest-dismissed";
   var CURRENT_LOCALE = "ko";
-  var MESH = [{"locale":"en","endonym":"English","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/","message":"This page is also available in English.","dismissLabel":"Dismiss"},{"locale":"de","endonym":"Deutsch","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/de/","message":"Diese Seite gibt es auch auf Deutsch.","dismissLabel":"Schließen"},{"locale":"es-419","endonym":"Español (Latinoamérica)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/es-419/","message":"Esta página también está disponible en español latinoamericano.","dismissLabel":"Cerrar"},{"locale":"es-ES","endonym":"Español (España)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/es-ES/","message":"Esta página también está disponible en español (España).","dismissLabel":"Cerrar"},{"locale":"fr","endonym":"Français","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/fr/","message":"Cette page est également disponible en français.","dismissLabel":"Fermer"},{"locale":"it","endonym":"Italiano","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/it/","message":"Questa pagina è disponibile anche in italiano.","dismissLabel":"Chiudi"},{"locale":"ja","endonym":"日本語","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/ja/","message":"このページは日本語でもご覧いただけます。","dismissLabel":"閉じる"},{"locale":"ko","endonym":"한국어","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/ko/","message":"이 페이지는 한국어로도 보실 수 있습니다.","dismissLabel":"닫기"},{"locale":"pl","endonym":"Polski","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/pl/","message":"Ta strona jest dostępna również po polsku.","dismissLabel":"Zamknij"},{"locale":"pt-BR","endonym":"Português (Brasil)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/pt-BR/","message":"Esta página também está disponível em português do Brasil.","dismissLabel":"Fechar"},{"locale":"pt-PT","endonym":"Português (Portugal)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/pt-PT/","message":"Esta página também está disponível em português (Portugal).","dismissLabel":"Fechar"},{"locale":"ru","endonym":"Русский","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/ru/","message":"Эта страница доступна на русском языке.","dismissLabel":"Закрыть"},{"locale":"tr","endonym":"Türkçe","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/tr/","message":"Bu sayfayı Türkçe de okuyabilirsiniz.","dismissLabel":"Kapat"},{"locale":"uk","endonym":"Українська","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/uk/","message":"Ця сторінка також доступна українською.","dismissLabel":"Закрити"},{"locale":"zh-Hans","endonym":"简体中文","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/zh-Hans/","message":"本页面也提供简体中文版本。","dismissLabel":"关闭"},{"locale":"zh-Hant","endonym":"繁體中文","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/zh-Hant/","message":"本頁面另有繁體中文版本。","dismissLabel":"關閉"}];
+  var MESH = [{"locale":"en","endonym":"English","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/","message":"This page is also available in English.","dismissLabel":"Dismiss"},{"locale":"cs","endonym":"Čeština","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/cs/","message":"Tato stránka je k dispozici také v češtině.","dismissLabel":"Zavřít"},{"locale":"de","endonym":"Deutsch","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/de/","message":"Diese Seite gibt es auch auf Deutsch.","dismissLabel":"Schließen"},{"locale":"es-419","endonym":"Español (Latinoamérica)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/es-419/","message":"Esta página también está disponible en español latinoamericano.","dismissLabel":"Cerrar"},{"locale":"es-ES","endonym":"Español (España)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/es-ES/","message":"Esta página también está disponible en español (España).","dismissLabel":"Cerrar"},{"locale":"fr","endonym":"Français","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/fr/","message":"Cette page est également disponible en français.","dismissLabel":"Fermer"},{"locale":"it","endonym":"Italiano","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/it/","message":"Questa pagina è disponibile anche in italiano.","dismissLabel":"Chiudi"},{"locale":"ja","endonym":"日本語","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/ja/","message":"このページは日本語でもご覧いただけます。","dismissLabel":"閉じる"},{"locale":"ko","endonym":"한국어","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/ko/","message":"이 페이지는 한국어로도 보실 수 있습니다.","dismissLabel":"닫기"},{"locale":"pl","endonym":"Polski","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/pl/","message":"Ta strona jest dostępna również po polsku.","dismissLabel":"Zamknij"},{"locale":"pt-BR","endonym":"Português (Brasil)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/pt-BR/","message":"Esta página também está disponível em português do Brasil.","dismissLabel":"Fechar"},{"locale":"pt-PT","endonym":"Português (Portugal)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/pt-PT/","message":"Esta página também está disponível em português (Portugal).","dismissLabel":"Fechar"},{"locale":"ru","endonym":"Русский","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/ru/","message":"Эта страница доступна на русском языке.","dismissLabel":"Закрыть"},{"locale":"tr","endonym":"Türkçe","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/tr/","message":"Bu sayfayı Türkçe de okuyabilirsiniz.","dismissLabel":"Kapat"},{"locale":"uk","endonym":"Українська","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/uk/","message":"Ця сторінка також доступна українською.","dismissLabel":"Закрити"},{"locale":"zh-Hans","endonym":"简体中文","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/zh-Hans/","message":"本页面也提供简体中文版本。","dismissLabel":"关闭"},{"locale":"zh-Hant","endonym":"繁體中文","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/zh-Hant/","message":"本頁面另有繁體中文版本。","dismissLabel":"關閉"}];
 
   if (window.localStorage.getItem(DISMISS_KEY) === "1") return;
 
@@ -544,6 +546,7 @@ a:hover { color: var(--colors-accent-base); }
 <header class="pk-langbar">
 <nav aria-label="언어"><ul>
 <li><a href="https://novalex-studios.github.io/press-kit/novalex-project-zero/" lang="en">English</a></li>
+<li><a href="https://novalex-studios.github.io/press-kit/novalex-project-zero/cs/" lang="cs">Čeština</a></li>
 <li><a href="https://novalex-studios.github.io/press-kit/novalex-project-zero/de/" lang="de">Deutsch</a></li>
 <li><a href="https://novalex-studios.github.io/press-kit/novalex-project-zero/es-419/" lang="es-419">Español (Latinoamérica)</a></li>
 <li><a href="https://novalex-studios.github.io/press-kit/novalex-project-zero/es-ES/" lang="es-ES">Español (España)</a></li>
@@ -575,6 +578,7 @@ a:hover { color: var(--colors-accent-base); }
 <section>
 <h2>미디어</h2>
 <div class="pk-media-grid">
+<figure><button type="button" class="pk-media-open" data-src="media/dashboard.webp" data-caption="대시보드에서 회사 운영 한눈에 파악하기"><img src="media/dashboard.webp" alt="대시보드에서 회사 운영 한눈에 파악하기" loading="lazy"></button><figcaption>대시보드에서 회사 운영 한눈에 파악하기</figcaption></figure>
 <figure><button type="button" class="pk-media-open" data-src="media/car-design.webp" data-caption="차 한 대를 구석구석 직접 설계하기"><img src="media/car-design.webp" alt="차 한 대를 구석구석 직접 설계하기" loading="lazy"></button><figcaption>차 한 대를 구석구석 직접 설계하기</figcaption></figure>
 <figure><button type="button" class="pk-media-open" data-src="media/tech-tree.webp" data-caption="기술 트리를 따라 신기술 연구하기"><img src="media/tech-tree.webp" alt="기술 트리를 따라 신기술 연구하기" loading="lazy"></button><figcaption>기술 트리를 따라 신기술 연구하기</figcaption></figure>
 <figure><button type="button" class="pk-media-open" data-src="media/factory-production.webp" data-caption="공장과 생산 라인 운영하기"><img src="media/factory-production.webp" alt="공장과 생산 라인 운영하기" loading="lazy"></button><figcaption>공장과 생산 라인 운영하기</figcaption></figure>
@@ -634,7 +638,7 @@ a:hover { color: var(--colors-accent-base); }
 <dt>설립 / 소재지</dt><dd>2026년·스위스</dd>
 <dt>출시 일정</dt><dd>2026년 11월 5일 출시 예정. 무료 데모는 2026년 8월 12일부터 플레이 가능</dd>
 <dt>플랫폼</dt><dd>Windows, Linux, macOS, Steam Deck, Android</dd>
-<dt>지원 언어</dt><dd>16개 언어</dd>
+<dt>지원 언어</dt><dd>17개 언어</dd>
 <dt>장르</dt><dd>턴제 타이쿤 / 경영 시뮬레이션</dd>
 <dt>프레스 문의</dt><dd><a href="mailto:studios.novalex@gmail.com">studios.novalex@gmail.com</a></dd>
 <dt>Steam</dt><dd><a href="https://store.steampowered.com/app/4865360/?utm_source=press-kit&amp;utm_content=ko">https://store.steampowered.com/app/4865360/</a></dd>
@@ -668,11 +672,11 @@ a:hover { color: var(--colors-accent-base); }
 
 <h2>수십 년의 판도를 가르는 기술 연구</h2>
 
-<p> 다섯 시대에 걸쳐 103가지 기술이 이어지는 기술 트리를 실제 자동차 역사의 흐름 그대로 따라가며, 각 시대를 대표하는 엔진과 소재, 편의 장비를 손에 넣으세요.</p>
+<p> 실제 역사를 따라 다섯 시대에 걸쳐 가지를 뻗는 103가지 기술을 차례로 연구하며, 시절마다 자동차의 모습을 정한 엔진과 소재, 편의 장비를 손에 넣으세요.</p>
 
 <ul>
 <li>연구에 판돈을 걸 타이밍을 재서, 시장을 뒤쫓지 말고 끌고 가세요.</li>
-<li>새 기술 하나가 판을 다시 짜고, 지난 10년의 베스트셀러를 조용히 구형으로 만들어 버립니다.</li>
+<li>새 기술 하나가 판을 다시 짜고, 지난 10년의 베스트셀러를 아무도 찾지 않는 차로 만들어 버립니다.</li>
 </ul>
 
 <h2>회사 전체를 굴린다</h2>
@@ -694,15 +698,15 @@ a:hover { color: var(--colors-accent-base); }
 <li>경쟁사를 살피고, 순위표를 읽고, 경쟁사가 비워둔 자리를 파고드세요.</li>
 <li>시장을 뒤흔드는 충격도, 방심하면 뼈아픈 시장 이벤트도 견뎌내세요.</li>
 <li><strong>똑같은 100년은 두 번 없다</strong> — 모든 플레이는 시드로 생성되므로, 새 게임을 시작할 때마다 경쟁사도 시장도 닥쳐올 충격도 다시 섞입니다.</li>
-<li><strong>시작 패도 당신이 고른다</strong> — 네 가지 난이도, 창업 때 정하는 두 가지 회사 특성, 그리고 차 한 대 만들기도 전에 회사의 강점을 결정짓는 초기 스킬 구성.</li>
+<li><strong>출발 조건은 당신이 고른다</strong> — 네 가지 난이도, 창업 때 정하는 두 가지 회사 특성, 그리고 차 한 대 설계하기도 전에 회사의 강점을 결정짓는 초기 스킬 구성.</li>
 <li>순위를 밀어 올려 업계 정상에 서거나, 그러다 파산하거나.</li>
 </ul>
 
 <h2>한눈에 읽히고, 놓칠 것이 없다</h2>
 
-<p> 보고서는 추측이 아니라 시뮬레이션을 근거로 판단하게 해 줍니다. 연도별 기업 가치, 시장 점유율, 영업이익률, 경쟁사 대비 판매량, 재무와 현금 흐름, 그리고 회사가 걸어온 전체 기록까지 — 14개 탭이 하나씩, 실제로 궁금해지는 질문에 답합니다.</p>
+<p> 보고서는 추측이 아니라 시뮬레이션을 근거로 판단하게 해 줍니다. 연도별 기업 가치, 시장 점유율, 영업이익률, 경쟁사 대비 판매량, 재무와 현금 흐름, 그리고 회사가 걸어온 전체 기록까지 — 플레이하다 보면 궁금해질 것들에 14개 탭이 저마다 답을 줍니다.</p>
 
-<p>플레이가 끝나면 상세한 결산표와 순위표가 당신 회사가 정확히 어디까지 왔는지 보여줍니다. 100년 동안 내린 결정을, 맞서 온 모든 경쟁사의 성적과 나란히 놓은 결과입니다. 그 역사의 맨 처음으로 돌아가면 도면 한 장, 차고 한 칸, 그리고 직접 지어내야 했던 회사 이름 하나가 있었습니다.</p>
+<p>플레이가 끝나면 상세한 결산표와 순위표가 당신 회사가 정확히 어디까지 왔는지 보여줍니다. 100년 동안 내린 결정을, 맞서 온 모든 경쟁사의 성적과 나란히 놓은 결과입니다. 그 역사의 맨 처음으로 돌아가면 도면 한 장, 차고 한 칸, 그리고 직접 지어야 했던 회사 이름 하나가 있었습니다.</p>
 </section>
 <section class="pk-grant">
 <p>Novalex Project Zero를 다루는 콘텐츠라면, 수익 창출 영상을 포함해 언론과 콘텐츠 크리에이터, 스트리머 누구나 이 프레스킷의 미디어를 자유롭게 사용하실 수 있습니다. 정확한 사용 조건은 바로 아래 영문 원문을 따릅니다.</p>

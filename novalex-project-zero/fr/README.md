@@ -18,10 +18,10 @@ Chaque modèle prend forme sur votre table à dessin. Choisissez parmi 12 types 
 
 ## La recherche se joue sur des décennies
 
-{{clip:tech-tree}} Explorez un arbre technologique fidèle à l’histoire — 103 technologies réparties sur cinq époques — et débloquez les moteurs, les matériaux et les équipements qui ont marqué chaque époque.
+{{clip:tech-tree}} Explorez un arbre fidèle à l’histoire — 103 technologies réparties sur cinq époques — et débloquez les moteurs, les matériaux et les équipements qui ont marqué chacune d’elles.
 
 - Misez sur les bonnes technologies au bon moment : vos voitures doivent donner le ton, pas courir derrière le marché.
-- Chaque avancée rebat les cartes — et relègue sans bruit le grand succès de la décennie précédente au rang de pièce de musée.
+- Chaque avancée rebat les cartes — et relègue sans bruit le grand succès de la décennie précédente au rang de pièce de musée que plus personne ne réclame.
 
 ## Dirigez toute l’entreprise
 

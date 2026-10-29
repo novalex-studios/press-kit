@@ -11,6 +11,7 @@
 <meta property="og:url" content="https://novalex-studios.github.io/press-kit/novalex-project-zero/pt-BR/">
 <link rel="canonical" href="https://novalex-studios.github.io/press-kit/novalex-project-zero/pt-BR/">
 <link rel="alternate" hreflang="en" href="https://novalex-studios.github.io/press-kit/novalex-project-zero/">
+<link rel="alternate" hreflang="cs" href="https://novalex-studios.github.io/press-kit/novalex-project-zero/cs/">
 <link rel="alternate" hreflang="de" href="https://novalex-studios.github.io/press-kit/novalex-project-zero/de/">
 <link rel="alternate" hreflang="es-419" href="https://novalex-studios.github.io/press-kit/novalex-project-zero/es-419/">
 <link rel="alternate" hreflang="es-ES" href="https://novalex-studios.github.io/press-kit/novalex-project-zero/es-ES/">
@@ -64,6 +65,7 @@
   --spacing-xxxl: 4rem;
   --layout-screen-max-width: 1440px;
   --layout-screen-max-width-wide: 1760px;
+  --layout-shell-max-width: 2300px;
   --radius-sm: 6px;
   --radius-md: 10px;
   --elevation-sm: 0 2px 10px rgba(0, 0, 0, 0.35);
@@ -89,7 +91,7 @@
   --backdrop-ambient: 1;
   --font-family: 'Noto Sans Variable', 'Noto Sans JP Variable', 'Noto Sans KR Variable', 'Noto Sans SC Variable', 'Noto Sans TC Variable', sans-serif;
   --font-display: 'Oswald Variable', 'Noto Sans Variable', 'Noto Sans JP Variable', 'Noto Sans KR Variable', 'Noto Sans SC Variable', 'Noto Sans TC Variable', sans-serif;
-  --font-brand: 'Segoe UI', 'Noto Sans Variable', Arial, sans-serif;
+  --font-brand: 'Noto Sans Variable', sans-serif;
   --font-size-caption: 0.833rem;
   --font-size-body: 1rem;
   --font-size-h2: 1.25rem;
@@ -459,7 +461,7 @@ a:hover { color: var(--colors-accent-base); }
 (function () {
   var DISMISS_KEY = "press-kit-suggest-dismissed";
   var CURRENT_LOCALE = "pt-BR";
-  var MESH = [{"locale":"en","endonym":"English","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/","message":"This page is also available in English.","dismissLabel":"Dismiss"},{"locale":"de","endonym":"Deutsch","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/de/","message":"Diese Seite gibt es auch auf Deutsch.","dismissLabel":"Schließen"},{"locale":"es-419","endonym":"Español (Latinoamérica)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/es-419/","message":"Esta página también está disponible en español latinoamericano.","dismissLabel":"Cerrar"},{"locale":"es-ES","endonym":"Español (España)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/es-ES/","message":"Esta página también está disponible en español (España).","dismissLabel":"Cerrar"},{"locale":"fr","endonym":"Français","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/fr/","message":"Cette page est également disponible en français.","dismissLabel":"Fermer"},{"locale":"it","endonym":"Italiano","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/it/","message":"Questa pagina è disponibile anche in italiano.","dismissLabel":"Chiudi"},{"locale":"ja","endonym":"日本語","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/ja/","message":"このページは日本語でもご覧いただけます。","dismissLabel":"閉じる"},{"locale":"ko","endonym":"한국어","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/ko/","message":"이 페이지는 한국어로도 보실 수 있습니다.","dismissLabel":"닫기"},{"locale":"pl","endonym":"Polski","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/pl/","message":"Ta strona jest dostępna również po polsku.","dismissLabel":"Zamknij"},{"locale":"pt-BR","endonym":"Português (Brasil)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/pt-BR/","message":"Esta página também está disponível em português do Brasil.","dismissLabel":"Fechar"},{"locale":"pt-PT","endonym":"Português (Portugal)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/pt-PT/","message":"Esta página também está disponível em português (Portugal).","dismissLabel":"Fechar"},{"locale":"ru","endonym":"Русский","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/ru/","message":"Эта страница доступна на русском языке.","dismissLabel":"Закрыть"},{"locale":"tr","endonym":"Türkçe","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/tr/","message":"Bu sayfayı Türkçe de okuyabilirsiniz.","dismissLabel":"Kapat"},{"locale":"uk","endonym":"Українська","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/uk/","message":"Ця сторінка також доступна українською.","dismissLabel":"Закрити"},{"locale":"zh-Hans","endonym":"简体中文","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/zh-Hans/","message":"本页面也提供简体中文版本。","dismissLabel":"关闭"},{"locale":"zh-Hant","endonym":"繁體中文","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/zh-Hant/","message":"本頁面另有繁體中文版本。","dismissLabel":"關閉"}];
+  var MESH = [{"locale":"en","endonym":"English","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/","message":"This page is also available in English.","dismissLabel":"Dismiss"},{"locale":"cs","endonym":"Čeština","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/cs/","message":"Tato stránka je k dispozici také v češtině.","dismissLabel":"Zavřít"},{"locale":"de","endonym":"Deutsch","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/de/","message":"Diese Seite gibt es auch auf Deutsch.","dismissLabel":"Schließen"},{"locale":"es-419","endonym":"Español (Latinoamérica)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/es-419/","message":"Esta página también está disponible en español latinoamericano.","dismissLabel":"Cerrar"},{"locale":"es-ES","endonym":"Español (España)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/es-ES/","message":"Esta página también está disponible en español (España).","dismissLabel":"Cerrar"},{"locale":"fr","endonym":"Français","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/fr/","message":"Cette page est également disponible en français.","dismissLabel":"Fermer"},{"locale":"it","endonym":"Italiano","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/it/","message":"Questa pagina è disponibile anche in italiano.","dismissLabel":"Chiudi"},{"locale":"ja","endonym":"日本語","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/ja/","message":"このページは日本語でもご覧いただけます。","dismissLabel":"閉じる"},{"locale":"ko","endonym":"한국어","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/ko/","message":"이 페이지는 한국어로도 보실 수 있습니다.","dismissLabel":"닫기"},{"locale":"pl","endonym":"Polski","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/pl/","message":"Ta strona jest dostępna również po polsku.","dismissLabel":"Zamknij"},{"locale":"pt-BR","endonym":"Português (Brasil)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/pt-BR/","message":"Esta página também está disponível em português do Brasil.","dismissLabel":"Fechar"},{"locale":"pt-PT","endonym":"Português (Portugal)","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/pt-PT/","message":"Esta página também está disponível em português (Portugal).","dismissLabel":"Fechar"},{"locale":"ru","endonym":"Русский","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/ru/","message":"Эта страница доступна на русском языке.","dismissLabel":"Закрыть"},{"locale":"tr","endonym":"Türkçe","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/tr/","message":"Bu sayfayı Türkçe de okuyabilirsiniz.","dismissLabel":"Kapat"},{"locale":"uk","endonym":"Українська","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/uk/","message":"Ця сторінка також доступна українською.","dismissLabel":"Закрити"},{"locale":"zh-Hans","endonym":"简体中文","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/zh-Hans/","message":"本页面也提供简体中文版本。","dismissLabel":"关闭"},{"locale":"zh-Hant","endonym":"繁體中文","href":"https://novalex-studios.github.io/press-kit/novalex-project-zero/zh-Hant/","message":"本頁面另有繁體中文版本。","dismissLabel":"關閉"}];
 
   if (window.localStorage.getItem(DISMISS_KEY) === "1") return;
 
@@ -544,6 +546,7 @@ a:hover { color: var(--colors-accent-base); }
 <header class="pk-langbar">
 <nav aria-label="Idioma"><ul>
 <li><a href="https://novalex-studios.github.io/press-kit/novalex-project-zero/" lang="en">English</a></li>
+<li><a href="https://novalex-studios.github.io/press-kit/novalex-project-zero/cs/" lang="cs">Čeština</a></li>
 <li><a href="https://novalex-studios.github.io/press-kit/novalex-project-zero/de/" lang="de">Deutsch</a></li>
 <li><a href="https://novalex-studios.github.io/press-kit/novalex-project-zero/es-419/" lang="es-419">Español (Latinoamérica)</a></li>
 <li><a href="https://novalex-studios.github.io/press-kit/novalex-project-zero/es-ES/" lang="es-ES">Español (España)</a></li>
@@ -575,6 +578,7 @@ a:hover { color: var(--colors-accent-base); }
 <section>
 <h2>Mídia</h2>
 <div class="pk-media-grid">
+<figure><button type="button" class="pk-media-open" data-src="media/dashboard.webp" data-caption="Gerenciando a empresa pelo painel"><img src="media/dashboard.webp" alt="Gerenciando a empresa pelo painel" loading="lazy"></button><figcaption>Gerenciando a empresa pelo painel</figcaption></figure>
 <figure><button type="button" class="pk-media-open" data-src="media/car-design.webp" data-caption="Projetando um carro do zero"><img src="media/car-design.webp" alt="Projetando um carro do zero" loading="lazy"></button><figcaption>Projetando um carro do zero</figcaption></figure>
 <figure><button type="button" class="pk-media-open" data-src="media/tech-tree.webp" data-caption="Pesquisando tecnologias na árvore tecnológica"><img src="media/tech-tree.webp" alt="Pesquisando tecnologias na árvore tecnológica" loading="lazy"></button><figcaption>Pesquisando tecnologias na árvore tecnológica</figcaption></figure>
 <figure><button type="button" class="pk-media-open" data-src="media/factory-production.webp" data-caption="Comandando as fábricas e as linhas de produção"><img src="media/factory-production.webp" alt="Comandando as fábricas e as linhas de produção" loading="lazy"></button><figcaption>Comandando as fábricas e as linhas de produção</figcaption></figure>
@@ -634,7 +638,7 @@ a:hover { color: var(--colors-accent-base); }
 <dt>Fundação / sede</dt><dd>2026 · Suíça</dd>
 <dt>Lançamento</dt><dd>5 de novembro de 2026 – demo gratuita disponível desde 12 de agosto de 2026</dd>
 <dt>Plataformas</dt><dd>Windows, Linux, macOS, Steam Deck, Android</dd>
-<dt>Idiomas</dt><dd>16 idiomas</dd>
+<dt>Idiomas</dt><dd>17 idiomas</dd>
 <dt>Gênero</dt><dd>Tycoon por turnos / simulação de negócios</dd>
 <dt>Contato para a imprensa</dt><dd><a href="mailto:studios.novalex@gmail.com">studios.novalex@gmail.com</a></dd>
 <dt>Steam</dt><dd><a href="https://store.steampowered.com/app/4865360/?utm_source=press-kit&amp;utm_content=pt-BR">https://store.steampowered.com/app/4865360/</a></dd>
@@ -663,12 +667,12 @@ a:hover { color: var(--colors-accent-base); }
 <ul>
 <li><strong>Decida o que sacrificar no projeto</strong> — desempenho, conforto, confiabilidade, eficiência de combustível e custo puxam cada um para um lado. Carro perfeito não existe: existe o carro certo para o segmento que você está atacando.</li>
 <li><strong>Conviva com suas escolhas</strong> — defeitos, o apelo que se esvai com a idade e os facelifts decidem se um modelo segue competitivo ou vai perdendo vendas até sair de linha.</li>
-<li><strong>Monte uma família de modelos, não um sucesso isolado</strong> — cubra os segmentos que pesam, aposente o que já envelheceu e acerte a hora de cada sucessor.</li>
+<li><strong>Monte uma família de modelos, não um sucesso isolado</strong> — cubra os segmentos que pesam, aposente o que já envelheceu e acerte o momento de cada sucessor.</li>
 </ul>
 
 <h2>Pesquise as tecnologias que marcam época</h2>
 
-<p> Avance por uma árvore tecnológica de cinco eras, com 103 tecnologias, e desbloqueie os motores, materiais e novidades que definem a cara de cada período.</p>
+<p> Avance por uma árvore histórica de 103 tecnologias ao longo de cinco eras e desbloqueie os motores, os materiais e as novidades que definem cada uma delas.</p>
 
 <ul>
 <li>Aposte em pesquisa na hora certa e seus carros lideram o mercado em vez de correr atrás dele.</li>
@@ -694,7 +698,7 @@ a:hover { color: var(--colors-accent-base); }
 <li>Espione os rivais, acompanhe a classificação e explore as brechas que eles deixam.</li>
 <li>Sobreviva a choques de mercado e a eventos que cobram caro de quem se acomodou.</li>
 <li><strong>Nenhum século se repete</strong> — cada partida tem sua própria seed: rivais, mercado e choques mudam a cada recomeço.</li>
-<li><strong>Escolha sua mão inicial</strong> — quatro níveis de dificuldade, duas características da empresa definidas na fundação e um conjunto de habilidades que define no que você é bom antes de o primeiro carro sair da fábrica.</li>
+<li><strong>Escolha seu ponto de partida</strong> — quatro níveis de dificuldade, duas características da empresa definidas na fundação e um conjunto de habilidades que define no que você é bom antes mesmo de projetar o seu primeiro carro.</li>
 <li>Suba na classificação até o topo do setor — ou quebre tentando.</li>
 </ul>
 

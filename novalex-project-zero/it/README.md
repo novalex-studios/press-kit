@@ -39,7 +39,7 @@ Ogni modello parte dal tuo tavolo da disegno. Scegli fra 12 tipi di auto, dimens
 - Studia i rivali, leggi le classifiche e infilati nei varchi che lasciano scoperti.
 - Reggi l'urto delle crisi di mercato e degli imprevisti, che non perdonano chi resta fermo.
 - **Non esistono due secoli uguali**: ogni partita nasce da un seed diverso, quindi rivali, mercato e colpi di scena cambiano ogni volta.
-- **Decidi con quali carte parti**: quattro livelli di difficoltà, due tratti aziendali da scegliere alla fondazione e competenze iniziali da distribuire come vuoi. Così i tuoi punti di forza sono decisi prima ancora che tu costruisca la prima auto.
+- **Decidi con quali carte parti**: quattro livelli di difficoltà, due tratti aziendali da scegliere alla fondazione e competenze iniziali da distribuire come vuoi, che stabiliscono in cosa sei bravo prima ancora di progettare la prima auto.
 - O arrivi ai vertici del settore, o fallisci.
 
 ## Tutti i numeri, scheda per scheda

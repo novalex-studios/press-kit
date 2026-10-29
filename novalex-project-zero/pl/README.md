@@ -18,10 +18,10 @@ Każdy model zaczyna się na desce kreślarskiej. Wybierz jeden z 12 typów samo
 
 ## Badaj technologie, które ukształtowały kolejne dekady
 
-{{clip:tech-tree}} Rozwijaj drzewo technologii oparte na historii motoryzacji – 103 technologie w pięciu epokach – i odblokowuj silniki, materiały i rozwiązania, które nadawały ton kolejnym epokom.
+{{clip:tech-tree}} Rozwijaj historyczne drzewo 103 technologii obejmujące pięć epok i odblokowuj silniki, materiały oraz rozwiązania, które nadają każdej z nich charakter.
 
 - Tak rozkładaj inwestycje w badania, żeby twoje auta wyznaczały rynkowi kierunek, a nie wlokły się w ogonie.
-- Nowa technologia zmienia to, co da się zbudować – i stopniowo wypiera z rynku bestseller minionej dekady.
+- Każda nowa technologia przesuwa granicę tego, co da się zbudować, a auta na niej oparte sprawiają, że bestsellera minionej dekady nikt już nie chce.
 
 ## Prowadź całą firmę
 
@@ -39,7 +39,7 @@ Każdy model zaczyna się na desce kreślarskiej. Wybierz jeden z 12 typów samo
 - Obserwuj rywali, czytaj rankingi i wykorzystuj luki, które zostawiają.
 - Przetrwaj wstrząsy rynkowe i wydarzenia, które bezlitośnie karzą za spoczywanie na laurach.
 - **Każda rozgrywka jest inna** – każda ma własny seed, więc rywale, rynek i czekające cię kryzysy układają się za każdym razem inaczej.
-- **Inne karty na start** – cztery poziomy trudności, dwie cechy firmy, które wybierasz przy jej zakładaniu, i początkowy rozkład umiejętności, który przesądza, w czym jesteś dobry, zanim jeszcze cokolwiek zbudujesz.
+- **Sam ustal punkt wyjścia** – cztery poziomy trudności, dwie cechy firmy, które wybierasz przy jej zakładaniu, i początkowy rozkład umiejętności, który przesądza, w czym jesteś dobry, zanim jeszcze zaprojektujesz pierwsze auto.
 - Wespnij się na szczyt branżowego rankingu – o ile wcześniej nie zbankrutujesz.
 
 ## Wszystko masz w liczbach

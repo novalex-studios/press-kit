@@ -14,11 +14,11 @@ Cada modelo sai da sua prancheta. Escolha entre 12 tipos de carro, dimensione o 
 
 - **Decida o que sacrificar no projeto** — desempenho, conforto, confiabilidade, eficiência de combustível e custo puxam cada um para um lado. Carro perfeito não existe: existe o carro certo para o segmento que você está atacando.
 - **Conviva com suas escolhas** — defeitos, o apelo que se esvai com a idade e os facelifts decidem se um modelo segue competitivo ou vai perdendo vendas até sair de linha.
-- **Monte uma família de modelos, não um sucesso isolado** — cubra os segmentos que pesam, aposente o que já envelheceu e acerte a hora de cada sucessor.
+- **Monte uma família de modelos, não um sucesso isolado** — cubra os segmentos que pesam, aposente o que já envelheceu e acerte o momento de cada sucessor.
 
 ## Pesquise as tecnologias que marcam época
 
-{{clip:tech-tree}} Avance por uma árvore tecnológica de cinco eras, com 103 tecnologias, e desbloqueie os motores, materiais e novidades que definem a cara de cada período.
+{{clip:tech-tree}} Avance por uma árvore histórica de 103 tecnologias ao longo de cinco eras e desbloqueie os motores, os materiais e as novidades que definem cada uma delas.
 
 - Aposte em pesquisa na hora certa e seus carros lideram o mercado em vez de correr atrás dele.
 - Tecnologias novas mudam o que dá para fazer — e mandam o campeão de vendas da década passada para o museu.
@@ -39,7 +39,7 @@ Cada modelo sai da sua prancheta. Escolha entre 12 tipos de carro, dimensione o 
 - Espione os rivais, acompanhe a classificação e explore as brechas que eles deixam.
 - Sobreviva a choques de mercado e a eventos que cobram caro de quem se acomodou.
 - **Nenhum século se repete** — cada partida tem sua própria seed: rivais, mercado e choques mudam a cada recomeço.
-- **Escolha sua mão inicial** — quatro níveis de dificuldade, duas características da empresa definidas na fundação e um conjunto de habilidades que define no que você é bom antes de o primeiro carro sair da fábrica.
+- **Escolha seu ponto de partida** — quatro níveis de dificuldade, duas características da empresa definidas na fundação e um conjunto de habilidades que define no que você é bom antes mesmo de projetar o seu primeiro carro.
 - Suba na classificação até o topo do setor — ou quebre tentando.
 
 ## Acompanhe tudo, não deixe nada passar

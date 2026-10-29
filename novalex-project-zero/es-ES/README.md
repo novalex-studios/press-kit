@@ -18,10 +18,10 @@ Cada modelo empieza en tu mesa de diseño. Elige entre 12 tipos de coche, define
 
 ## Investiga hoy la tecnología que decidirá las próximas décadas
 
-{{clip:tech-tree}} Recorre un árbol tecnológico inspirado en la historia del automóvil: 103 tecnologías repartidas en cinco épocas, con los motores, los materiales y el equipamiento que definen cada una.
+{{clip:tech-tree}} Recorre 103 tecnologías inspiradas en la historia del automóvil, repartidas en cinco épocas, y desbloquea los motores, los materiales y el equipamiento que definen cada época.
 
 - Acierta con el momento de cada apuesta en I+D y tus coches irán por delante del mercado en vez de ir a rebufo.
-- Cada avance cambia lo que se puede fabricar y, de paso, deja anticuado el superventas de la década anterior.
+- Cada avance cambia lo que se puede fabricar y convierte el superventas de la década anterior en un coche que ya nadie pide.
 
 ## Dirige toda la empresa
 
@@ -30,7 +30,7 @@ Cada modelo empieza en tu mesa de diseño. Elige entre 12 tipos de coche, define
 - **Fabricación**: plantas, líneas de producción, turnos de trabajo y cambios de utillaje. Ajusta la producción a la demanda sin acabar enterrado bajo existencias que no compra nadie.
 - **Precios**: fija el precio de cada modelo frente a lo que pide la competencia. Ponte por debajo y te llevas a sus clientes; aguanta el precio y deja que la marca haga el resto. Pero si lo bajas demasiado, el modelo se queda con fama de coche barato.
 - **Dinero**: financia la I+D, controla la tesorería y endéudate para crecer más rápido de lo que tu balance aguantaría.
-- **Marca**: el marketing forja reputación y prestigio, y juntos cambian cómo te valoran los compradores frente a un rival idéntico en todo lo demás. Un defecto que dejas pasar los hunde a los dos. Una marca de confianza vende coches que sobre el papel no deberían venderse.
+- **Marca**: el marketing forja reputación y prestigio, y juntos cambian cómo te valoran los compradores frente a un rival idéntico en todo lo demás. Un defecto que dejas pasar hunde por igual la reputación y el prestigio. Una marca de confianza vende coches que sobre el papel no deberían venderse.
 
 ## Rivales controlados por la IA: hasta 30 marcas en el mercado
 
@@ -39,7 +39,7 @@ Cada modelo empieza en tu mesa de diseño. Elige entre 12 tipos de coche, define
 - Estudia a tus rivales, lee la clasificación y métete por los huecos que dejan abiertos.
 - Sobrevive a las crisis del mercado y a los eventos que castigan a quien se confía.
 - **No hay dos partidas iguales**: cada una arranca con su propia tirada, así que empezar de cero vuelve a barajar los rivales, el mercado y los sobresaltos que te esperan.
-- **Elige tu mano inicial**: cuatro niveles de dificultad, dos rasgos de empresa que escoges al fundarla y un reparto de habilidades que decide qué se te da bien antes de fabricar nada.
+- **Elige tu punto de partida**: cuatro niveles de dificultad, dos rasgos de empresa que escoges al fundarla y un reparto de habilidades que decide qué se te da bien antes de diseñar tu primer coche.
 - Sube en la clasificación hasta lo más alto del sector o arruínate en el intento.
 
 ## Léelo todo, que no se te escape nada

@@ -1,6 +1,6 @@
 # Press Kit
 
-Rundenbasierte Autokonzern-Simulation über ein ganzes Jahrhundert: Konstruiere jedes Modell von Grund auf, steuere die Werke, unterbiete die Konkurrenz preislich und setz dich gegen bis zu 30 KI-Konkurrenten durch. Am Ende steht ein Hersteller, der Generationen überdauert – oder keiner.
+Rundenbasierte Autokonzern-Simulation über ein ganzes Jahrhundert: Konstruiere jedes Modell von Grund auf, steuere die Werke, unterbiete die Konkurrenz preislich und setze dich gegen bis zu 30 KI-Rivalen durch. Am Ende steht ein Hersteller, der Generationen überdauert – oder keiner.
 
 {{clip:hero}}
 
@@ -18,10 +18,10 @@ Jedes Modell entsteht auf deinem Reißbrett. Wähle aus zwölf Fahrzeugtypen, le
 
 ## Forschung, die über Jahrzehnte nachwirkt
 
-{{clip:tech-tree}} Arbeite dich durch einen historischen Technologiebaum: 103 Technologien, fünf Epochen. Freigeschaltet werden die Motoren, Werkstoffe und Ausstattungsmerkmale, die ihre Zeit geprägt haben.
+{{clip:tech-tree}} Arbeite dich durch 103 Technologien aus fünf Epochen der Automobilgeschichte und schalte die Motoren, Werkstoffe und Ausstattungsmerkmale frei, die jede dieser Epochen geprägt haben.
 
 - Setz deine Forschungsschwerpunkte so, dass deine Autos dem Markt voraus sind und nicht hinterherhinken.
-- Neue Technik verschiebt die Grenzen des Machbaren – und lässt den Verkaufsschlager des letzten Jahrzehnts alt aussehen.
+- Neue Technik verschiebt die Grenzen des Machbaren – und macht aus dem Verkaufsschlager des letzten Jahrzehnts ein Auto, das keiner mehr will.
 
 ## Das ganze Unternehmen führen
 
@@ -34,16 +34,16 @@ Jedes Modell entsteht auf deinem Reißbrett. Wähle aus zwölf Fahrzeugtypen, le
 
 ## Konkurrenz, die nicht stillsteht
 
-{{clip:rivals}} Die Konkurrenz ist keine Kulisse. Jeder KI-Hersteller spielt nach denselben Regeln wie du – entwickeln, kalkulieren, forschen, reagieren, Runde für Runde – und im Lauf des Jahrhunderts kommen immer neue dazu. Zum Schluss kämpfen bis zu 30 Konkurrenten um jeden einzelnen Käufer.
+{{clip:rivals}} Die Konkurrenz ist keine Kulisse. Jeder KI-Konkurrent spielt nach denselben Regeln wie du – entwickeln, kalkulieren, forschen, reagieren, Runde für Runde – und im Lauf des Jahrhunderts kommen immer neue dazu. Zum Schluss kämpfen bis zu 30 Konkurrenten um jeden einzelnen Käufer.
 
 - **Beobachte die Konkurrenz** – verfolge die Rangliste und stoß in die Lücken, die die anderen offenlassen.
-- **Übersteh Marktkrisen** – sie bestrafen jeden, der sich zurücklehnt.
+- **Übersteh Krisen und Marktereignisse** – sie bestrafen jeden, der sich zurücklehnt.
 - **Würfle jede Partie neu aus** – andere Konkurrenten, eine andere Marktlage, andere Krisen.
-- **Bestimm deine Startaufstellung** – vier Schwierigkeitsgrade, zwei Unternehmenseigenschaften bei der Gründung und Startpunkte, die du frei auf deine Fähigkeiten verteilst, noch bevor das erste Auto gebaut ist.
+- **Bestimm deine Startaufstellung** – vier Schwierigkeitsgrade, zwei Unternehmenseigenschaften bei der Gründung und Startpunkte, die du frei auf deine Fähigkeiten verteilst, noch bevor du das erste Auto entwirfst.
 - **Arbeite dich an die Spitze** – sofern du nicht vorher pleitegehst.
 
 ## Zahlen, die Antworten liefern
 
-{{clip:reports}} 14 Auswertungen zeigen dir, was in der Simulation wirklich passiert: Unternehmenswert im Zeitverlauf, Marktanteil, Gewinnmargen, Absatz im Vergleich zur Konkurrenz, Finanzen und Liquidität, dazu die komplette Firmenchronik. Mit ihnen triffst du die Entscheidungen der nächsten Runde nach Zahlen statt aus dem Bauch heraus.
+{{clip:reports}} Vierzehn Auswertungen zeigen dir, was in der Simulation wirklich passiert: Unternehmenswert im Zeitverlauf, Marktanteil, Gewinnmargen, Absatz im Vergleich zur Konkurrenz, Finanzen und Liquidität, dazu die komplette Firmenchronik. Mit ihnen triffst du die Entscheidungen der nächsten Runde nach Zahlen statt aus dem Bauch heraus.
 
 Am Ende einer Partie zeigen dir eine ausführliche Schlussbilanz und die Bestenliste genau, wo du gelandet bist: hundert Jahre voller Entscheidungen, gemessen an allen, die dasselbe versucht haben. Und angefangen hat alles mit einer Skizze und einem Namen, den du dir selbst ausgedacht hast.

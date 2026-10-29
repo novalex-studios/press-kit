@@ -18,10 +18,10 @@ Her model çizim tahtanızda başlar. 12 araç tipinden birini seçin, motor hac
 
 ## Onlarca yıla damga vuracak teknolojiyi araştırın
 
-{{clip:tech-tree}} Beş döneme yayılan tarihsel teknoloji ağacında ilerleyin: 103 teknolojiyi tek tek açarak her dönemin simgesi olan motorlara, malzemelere ve donanımlara ulaşın.
+{{clip:tech-tree}} 103 teknolojiden oluşan, beş döneme yayılan tarihsel ağaçta ilerleyin ve her döneme damgasını vuran motorların, malzemelerin ve donanımların kilidini açın.
 
 - Hangi araştırmaya ne zaman yatırım yapacağınıza iyi karar verin; arabalarınız pazarın peşinden gitmesin, pazara yön versin.
-- Her yeni teknoloji çıtayı biraz daha yükseltir; geçen on yılın en çok satan modeli siz daha farkına varmadan eskir.
+- Yeni teknolojiler oyunun kurallarını değiştirir; geçen on yılın en çok satan modeli, kimsenin yüzüne bakmadığı bir arabaya dönüşür.
 
 ## Şirketi baştan sona siz yönetin
 
@@ -39,7 +39,7 @@ Her model çizim tahtanızda başlar. 12 araç tipinden birini seçin, motor hac
 - Sıralamaya bakın, rakiplerin ne yaptığını görün ve boş bıraktıkları yeri doldurun.
 - Pazar şoklarından ve rehavete kapılanı cezalandıran olaylardan sağ çıkın.
 - **Hiçbir yüzyıl bir öncekine benzemez** — her oyun rastgele bir düzenle kurulur ve kartlar yeniden dağıtılır: rakipler, pazar ve başınıza gelecek şoklar.
-- **Başlangıç koşullarınızı kendiniz seçin** — dört zorluk seviyesi, kuruluşta seçilen iki şirket özelliği ve daha tek bir vida sıkmadan nerede güçlü olacağınızı gösteren yetenek puanları.
+- **Başlangıç koşullarınızı kendiniz seçin** — dört zorluk seviyesi, kuruluşta seçilen iki şirket özelliği ve daha tek bir araba tasarlamadan nerede güçlü olacağınızı gösteren yetenek puanları.
 - Sıralamada sektörün zirvesine oynayın — ya da bu uğurda batın.
 
 ## Her şeyi görün, hiçbir şeyi kaçırmayın
