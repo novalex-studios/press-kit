@@ -47,6 +47,7 @@
   --colors-line-strong: #4a4033;
   --colors-semantic-success: #7dc47f;
   --colors-semantic-success-on: #201607;
+  --colors-semantic-danger-on: #1a0d0b;
   --colors-semantic-danger: #e0655a;
   --colors-semantic-warning: #e3b95c;
   --colors-crown-gold: #e8c14a;
@@ -54,7 +55,46 @@
   --colors-scrim-base: rgba(0, 0, 0, 0.6);
   --colors-scrim-strong: rgba(0, 0, 0, 0.75);
   --colors-scrim-subtle: rgba(0, 0, 0, 0.25);
+  --colors-disabled-bg: #1b1714;
+  --colors-disabled-text: #a89d8d;
+  --colors-disabled-border: #7a6d5c;
   --colors-transparent: rgba(0, 0, 0, 0);
+  --colors-silhouette-ink-dark: #151210;
+  --colors-silhouette-ink-light: #ede7dd;
+  --colors-silhouette-mix: 80%;
+  --colors-silhouette-sidewall: #4a4033;
+  --colors-silhouette-glow: 0.25;
+  --colors-silhouette-outline: #ede7dd;
+  --colors-silhouette-outline-width: 0;
+  --colors-silhouette-outline-small-width: 0;
+  --colors-silhouette-outline-inner: #151210;
+  --colors-silhouette-outline-inner-width: 0;
+  --colors-silhouette-outline-inner-small-width: 0;
+  --colors-silhouette-tyre: #14100d;
+  --colors-silhouette-tyre-edge: #4a4a4a;
+  --colors-silhouette-rim: #c4ccd4;
+  --colors-silhouette-rim-face: #8d949a;
+  --colors-silhouette-shade: #151210;
+  --colors-silhouette-highlight: #f0b45c;
+  --colors-silhouette-lamp: #fff3c4;
+  --colors-silhouette-tail-lamp: #e0655a;
+  --colors-silhouette-glass-edge: #c4ccd4;
+  --colors-silhouette-part-shade: 0.3;
+  --colors-silhouette-chrome: #dfe5ea;
+  --colors-silhouette-paint-red: #b3261e;
+  --colors-silhouette-paint-orange: #d9741c;
+  --colors-silhouette-paint-yellow: #e2b93b;
+  --colors-silhouette-paint-green: #2f7d4a;
+  --colors-silhouette-paint-blue: #2a5db0;
+  --colors-silhouette-paint-silver: #a7adb4;
+  --colors-silhouette-paint-white: #eef0f2;
+  --colors-silhouette-paint-black: #24272b;
+  --colors-lockup-lit: #e8a33d;
+  --colors-stage-field: #161616;
+  --colors-stage-pool: #e6a23c;
+  --colors-stage-pool-opacity: 0.55;
+  --colors-stage-beam: #fff3c4;
+  --colors-stage-beam-opacity: 0.38;
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.25rem;
   --spacing-md: 0.5rem;
@@ -67,10 +107,17 @@
   --layout-screen-max-width: 1440px;
   --layout-screen-max-width-wide: 1760px;
   --layout-shell-max-width: 2300px;
+  --layout-designer-hero-width: 400px;
   --radius-sm: 6px;
   --radius-md: 10px;
   --elevation-sm: 0 2px 10px rgba(0, 0, 0, 0.35);
   --elevation-lg: 0 12px 34px rgba(0, 0, 0, 0.5);
+  --elevation-raised: inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.45), 0 1px 1px rgba(0, 0, 0, 0.4), 0 6px 16px -4px rgba(0, 0, 0, 0.55);
+  --elevation-raised-hover: inset 0 1px 0 rgba(255, 255, 255, 0.12), inset 0 -1px 0 rgba(0, 0, 0, 0.45), 0 2px 3px rgba(0, 0, 0, 0.4), 0 10px 22px -4px rgba(0, 0, 0, 0.6);
+  --elevation-overlay: inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.45), 0 12px 34px rgba(0, 0, 0, 0.5);
+  --elevation-inset: inset 0 1px 3px rgba(0, 0, 0, 0.45), inset 0 -1px 0 rgba(255, 255, 255, 0.05);
+  --elevation-hover-lift: -1px;
+  --elevation-control: inset 0 1px 0 rgba(255, 255, 255, 0.14), inset 0 -1px 0 rgba(0, 0, 0, 0.4), 0 1px 1px rgba(0, 0, 0, 0.35);
   --chart-grid-line: rgba(237, 231, 221, 0.07);
   --chart-band-boom: rgba(125, 196, 127, 0.3);
   --chart-band-bust: rgba(224, 101, 90, 0.3);
@@ -86,7 +133,7 @@
   --state-pulse-glow-rest: 0 0 0 0 rgba(232, 163, 61, 0.55);
   --state-pulse-glow-peak: 0 0 0 5px rgba(232, 163, 61, 0);
   --backdrop-body: radial-gradient(1100px 480px at 22% -8%, rgba(232, 163, 61, 0.075), transparent 62%), radial-gradient(900px 500px at 108% 112%, rgba(79, 179, 169, 0.05), transparent 60%), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.012) 0 1px, transparent 1px 3px), var(--colors-surface-bg);
-  --backdrop-panel: linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0) 42%);
+  --backdrop-panel: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.015) 38%, rgba(0, 0, 0, 0.12) 100%);
   --backdrop-sidebar: linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 30%);
   --backdrop-topbar: linear-gradient(180deg, rgba(255, 255, 255, 0.022), transparent);
   --backdrop-ambient: 1;
@@ -98,7 +145,7 @@
   --font-size-h2: 1.25rem;
   --font-size-h1: 1.563rem;
   --font-size-display: 1.953rem;
-  --font-size-micro: 0.6875rem;
+  --font-size-micro: 0.75rem;
   --font-size-big-num: 1.875rem;
   --font-size-huge-num: 2.5rem;
   --font-weight-regular: 400;
@@ -574,7 +621,7 @@ a:hover { color: var(--colors-accent-base); }
 <main>
 <section>
 <h2>预告片</h2>
-<div class="pk-trailer-frame"><iframe src="https://www.youtube.com/embed/OcfUVo1Wk_0" title="预告片" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<div class="pk-trailer-frame"><iframe src="https://www.youtube.com/embed/RMy6nuqpm4c" title="预告片" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 </section>
 <section>
 <h2>媒体素材</h2>
@@ -644,8 +691,9 @@ a:hover { color: var(--colors-accent-base); }
 <dt>媒体联系方式</dt><dd><a href="mailto:studios.novalex@gmail.com">studios.novalex@gmail.com</a></dd>
 <dt>Steam</dt><dd><a href="https://store.steampowered.com/app/4865360/?utm_source=press-kit&amp;utm_content=zh-Hans">https://store.steampowered.com/app/4865360/</a></dd>
 <dt>itch.io</dt><dd><a href="https://novalex-studios.itch.io/novalex-project-zero">https://novalex-studios.itch.io/novalex-project-zero</a></dd>
-<dt>Google Play</dt><dd><a href="https://play.google.com/store/apps/details?id=ch.novalex.projectzero.lite">https://play.google.com/store/apps/details</a></dd>
+<dt>Google Play</dt><dd><a href="https://play.google.com/store/apps/details?id=ch.novalex.projectzero.lite">https://play.google.com/store/apps/details</a> <span class="pk-factsheet-note">Lite（免费试玩版）</span></dd>
 <dt>YouTube</dt><dd><a href="https://www.youtube.com/@NovalexStudios">https://www.youtube.com/@NovalexStudios</a></dd>
+<dt>在 Steam 上关注 Novalex</dt><dd><a href="https://store.steampowered.com/dev/novalexstudios">在 Steam 上关注 Novalex</a></dd>
 </dl>
 </section>
 <section>
@@ -688,7 +736,7 @@ a:hover { color: var(--colors-accent-base); }
 <li><strong>制造</strong>：工厂、生产线、班次与产线改造。让产能跟上需求，又不至于被压在手里的库存拖垮。</li>
 <li><strong>定价</strong>：每款车的价格都要盯着对手来定。压价，就能从对手手里抢走买家；稳住价格，就让车标去撑场面。价格压得太低，买家只会把它当成一辆廉价车。</li>
 <li><strong>资金</strong>：投研发、管现金流，也善用融资，把公司做到光靠家底撑不起的规模。</li>
-<li><strong>品牌</strong>：靠营销积累声誉与威望；两款车条件相当时，买家先选谁，就由这两样合起来说了算。放任缺陷不管，这两样都会被拖下来。一块叫得响的车标，能卖掉纸面数据上本该卖不动的车。</li>
+<li><strong>品牌</strong>：营销能让买家多看一眼；声誉与威望则要靠你卖出的车挣来。两款车条件相当时，买家先选谁，就由这两样合起来说了算。放任缺陷不管，你的声誉就要为此买单。一块叫得响的车标，能卖掉纸面数据上本该卖不动的车。</li>
 </ul>
 
 <h2>把一路增至 30 家的 AI 对手一个个比下去</h2>

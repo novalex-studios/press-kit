@@ -30,7 +30,7 @@ Chaque modèle prend forme sur votre table à dessin. Choisissez parmi 12 types 
 - **Production** — usines, lignes de production, équipes et changements d’outillage. Calez les volumes sur la demande sans crouler sous les invendus.
 - **Tarification** — fixez le prix de chaque modèle face aux tarifs de vos concurrents. Cassez les prix, et leurs clients passent chez vous ; tenez vos prix, et votre réputation fait le reste. Mais à trop brader, vous passerez pour une marque au rabais.
 - **Finances** — investissez dans la R&D, gardez une trésorerie saine et empruntez pour grandir plus vite que votre bilan ne le permettrait.
-- **Marque** — le marketing bâtit votre réputation et votre prestige : à voiture égale, c’est ce qui fait qu’on vous choisit plutôt qu’un concurrent. Laissez filer un défaut et les deux en pâtissent. Un nom qui inspire confiance écoule des voitures qui, sur le papier, n’avaient rien pour plaire.
+- **Marque** – le marketing attire l’attention des acheteurs ; la réputation et le prestige, eux, viennent des voitures que vous vendez, et ensemble, à voiture égale, ce sont eux qui décident si l’on vous préfère à un concurrent. Laissez filer un défaut et c’est votre réputation qui en pâtit. Un nom qui inspire confiance écoule des voitures qui, sur le papier, n’avaient rien pour plaire.
 
 ## Affrontez jusqu’à 30 constructeurs qui jouent chacun leur carte
 

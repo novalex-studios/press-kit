@@ -30,7 +30,7 @@ Ogni modello parte dal tuo tavolo da disegno. Scegli fra 12 tipi di auto, dimens
 - **Produzione**: stabilimenti, linee di produzione, turni di lavoro e riconversioni. Adegua i volumi alla domanda senza restare sommerso dall'invenduto.
 - **Prezzi**: fissa il prezzo di ogni modello rispetto a quello che chiedono i rivali. Battili sul prezzo e i loro clienti diventano tuoi; tieni il prezzo alto e lascia che sia il marchio a giustificarlo. Se scendi troppo, i clienti ci vedono solo un'auto da poco.
 - **Soldi**: finanzia la ricerca e lo sviluppo, tieni d'occhio il flusso di cassa e usa la leva del credito per crescere più in fretta di quanto il bilancio consentirebbe.
-- **Marchio**: il marketing costruisce reputazione e prestigio, e insieme decidono come i clienti ti collocano rispetto a un rivale identico sotto ogni altro aspetto. Basta trascurare un difetto per farli crollare entrambi. Un marchio di cui la gente si fida vende auto che sulla carta non si venderebbero.
+- **Marchio**: il marketing ti fa notare dai clienti; reputazione e prestigio nascono dalle auto che vendi, e insieme decidono come i clienti ti collocano rispetto a un rivale identico sotto ogni altro aspetto. Basta trascurare un difetto e a pagarne il prezzo è la tua reputazione. Un marchio di cui la gente si fida vende auto che sulla carta non si venderebbero.
 
 ## Fino a 30 rivali, e ognuno decide da solo
 

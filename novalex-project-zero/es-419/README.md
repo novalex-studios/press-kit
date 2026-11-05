@@ -30,7 +30,7 @@ Cada modelo nace en tu mesa de diseño. Elige entre 12 tipos de auto, define la 
 - **Fábricas**: ábrelas y reconviértelas cuando cambia lo que vendes, monta líneas de producción y ajusta los turnos. Acomoda el volumen a la demanda sin que se te acumulen autos sin vender.
 - **Precios**: fija el precio de cada modelo frente a lo que piden tus rivales. Ponte por debajo y sus compradores pasan a ser tuyos; o mantén el precio y deja que la marca haga su trabajo. Bájalo demasiado y los compradores no van a ver más que un auto barato.
 - **Finanzas**: financia la I+D, cuida el flujo de caja y apóyate en el crédito para crecer más rápido de lo que tu balance permitiría.
-- **Marca**: el marketing construye reputación y prestigio, y juntos cambian cómo te ven los compradores frente a un rival idéntico en todo lo demás. Un defecto que dejes pasar hunde por igual la reputación y el prestigio. Una marca con historia vende autos que ninguna hoja de cálculo explicaría.
+- **Marca**: el marketing hace que los compradores se fijen en ti; la reputación y el prestigio salen de los autos que vendes, y juntos deciden cómo te ven frente a un rival idéntico en todo lo demás. Un defecto que dejes pasar lo paga tu reputación. Una marca con historia vende autos que ninguna hoja de cálculo explicaría.
 
 ## Hasta 30 fabricantes controlados por IA
 

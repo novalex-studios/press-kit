@@ -30,7 +30,7 @@ Her model çizim tahtanızda başlar. 12 araç tipinden birini seçin, motor hac
 - **Üretim** — fabrikalar, üretim hatları, vardiyalar ve hat dönüşümleri. Üretimi talebe göre ayarlayın ki elinizde satılmayan stok birikmesin.
 - **Fiyatlandırma** — her modelin fiyatını rakiplerin fiyatlarına bakarak belirleyin. Fiyat kırın ve müşteriyi kapın; ya da fiyatınızdan taviz vermeyin ve gerisini markanıza bırakın. Fiyatı fazla düşürürseniz alıcının gözünde arabanız ucuz bir arabadan ibaret kalır.
 - **Finans** — Ar-Ge’ye kaynak ayırın, nakit akışını yönetin, bilançonuzun kaldırabileceğinden daha hızlı büyümek için krediye başvurun.
-- **Marka** — pazarlama size itibar ve prestij kazandırır; ikisi de teknik özellikleri aynı olan bir rakip karşısında alıcının hangi tarafa yöneleceğini belirler. Bir kusuru görmezden gelirseniz ikisi de geriler. Güçlü bir marka, kâğıt üzerindeki rakamların satmaz dediği arabayı satar.
+- **Marka** – pazarlama, alıcıların dönüp bir daha bakmasını sağlar; itibar ve prestij ise sattığınız arabalardan gelir ve ikisi birlikte, teknik özellikleri aynı olan bir rakip karşısında alıcının hangi tarafa yöneleceğini belirler. Bir kusuru görmezden gelirseniz bunun bedelini itibarınız öder. Güçlü bir marka, kâğıt üzerindeki rakamların satmaz dediği arabayı satar.
 
 ## Giderek 30’a kadar çoğalan rakiplerinizi geride bırakın
 

@@ -30,7 +30,7 @@ Każdy model zaczyna się na desce kreślarskiej. Wybierz jeden z 12 typów samo
 - **Produkcja** – fabryki, linie produkcyjne, praca na zmiany i przezbrajanie. Dopasuj wielkość produkcji do popytu, nie topiąc pieniędzy w autach, których nikt nie kupi.
 - **Ceny** – ustalaj je dla każdego modelu, oglądając się na rywali. Schodząc niżej, podbierasz im klientów; trzymając cenę, pozwalasz, żeby marka pracowała na ciebie. Zejdziesz za nisko, a dla kupujących będzie to po prostu tanie auto.
 - **Pieniądze** – finansuj badania i rozwój, pilnuj płynności i sięgaj po kapitał, żeby rosnąć szybciej, niż pozwala ci na to bilans.
-- **Marka** – marketing buduje reputację i prestiż, a te wspólnie przesądzają, kogo wybierze kupujący, gdy poza tym niczym nie różnisz się od rywala. Zlekceważ usterkę, a stracisz jedno i drugie. Rozpoznawalna marka sprzeda auto, które na papierze nie miało żadnych szans.
+- **Marka** — marketing przyciąga uwagę kupujących, ale reputację i prestiż budują dopiero auta, które sprzedajesz. Reputacja i prestiż wspólnie przesądzają, kogo wybierze klient, gdy poza tym niczym nie różnisz się od rywala. Zlekceważ usterkę, a zapłaci za to twoja reputacja. Rozpoznawalna marka sprzeda auto, które na papierze nie miało żadnych szans.
 
 ## Przechytrz do 30 producentów sterowanych przez AI
 

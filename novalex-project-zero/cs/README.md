@@ -30,7 +30,7 @@ Každý model vzniká na vašem rýsovacím prkně. Vyberte si z 12 typů aut,
 - **Výroba** – továrny, výrobní linky, směny a přestavby. Slaďte produkci s poptávkou, ať se neutopíte v neprodaných vozech.
 - **Ceny** – nastavte cenu každého modelu podle toho, kolik si říkají konkurenti. Jděte pod jejich cenu a přetáhnete jim zákazníky, nebo cenu udržte a spolehněte se, že ji obhájí vaše značka. Když ale příliš zlevníte, zákazníci budou ve vašem voze vidět jen laciné auto.
 - **Peníze** – financujte výzkum a vývoj, hlídejte peněžní tok a pomocí úvěrů rosťte rychleji, než by vám rozvaha jinak dovolila.
-- **Značka** – marketing buduje reputaci a prestiž, které společně určují, jak vás zákazníci hodnotí ve srovnání s jinak rovnocenným konkurentem. Neřešená závada srazí obojí. Důvěryhodná značka prodá i auta, která by se podle čísel prodávat neměla.
+- **Značka** – marketing přiměje kupce zbystřit; reputace a prestiž ale vycházejí z aut, která prodáváte, a společně rozhodují o tom, jak vás zákazníci hodnotí ve srovnání s jinak rovnocenným konkurentem. Neřešená závada se vám vymstí na reputaci. Důvěryhodná značka prodá i auta, která by se podle čísel prodávat neměla.
 
 ## Porazte konkurenci, která se rozroste až na 30 automobilek řízených AI
 

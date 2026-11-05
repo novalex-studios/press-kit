@@ -30,7 +30,7 @@ Cada modelo sai da sua prancheta. Escolha entre 12 tipos de carro, dimensione o 
 - **Produção** — fábricas, linhas de produção, turnos de trabalho e reconfiguração das linhas. Ajuste o volume à demanda sem encalhar carro no pátio.
 - **Preços** — defina o preço de cada modelo de olho no que os rivais cobram. Cobre menos que eles e os clientes passam a ser seus; mantenha o preço lá em cima e deixe a marca falar por si. Baixe demais e o comprador vai enxergar só mais um carro barato.
 - **Dinheiro** — banque a P&D, controle o caixa e use financiamento para crescer mais rápido do que o seu balanço permitiria.
-- **Marca** — o marketing constrói reputação e prestígio, e os dois mudam o jeito como o comprador compara o seu carro com um modelo idêntico de um rival. Deixe passar um defeito e os dois despencam. Uma marca respeitada vende carros que planilha nenhuma explica.
+- **Marca** – o marketing faz o comprador dar uma segunda olhada; reputação e prestígio vêm dos carros que você vende, e os dois juntos decidem como o comprador compara o seu carro com um modelo idêntico de um rival. Deixe passar um defeito e quem paga é a sua reputação. Uma marca respeitada vende carros que planilha nenhuma explica.
 
 ## Supere uma concorrência que chega a 30 montadoras
 

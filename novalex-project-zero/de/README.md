@@ -10,11 +10,11 @@ Hier zählt nicht die Reaktionszeit, sondern die Rechnung. Jede Runde ist ein ka
 
 ## Autos von Grund auf konstruieren
 
-Jedes Modell entsteht auf deinem Reißbrett. Wähle aus zwölf Fahrzeugtypen, lege den Hubraum fest, suche dir die Komponenten aus und stimme das Fahrverhalten per Schieberegler fein ab.
+Jedes Modell entsteht auf deinem Reißbrett. Zwölf Fahrzeugtypen stehen zur Wahl. Leg den Hubraum fest, such dir die Komponenten aus und feile mit fein abgestuften Reglern an der Abstimmung.
 
-- **Kompromisse eingehen** – hohe Leistung, Komfort, Zuverlässigkeit, gute Kraftstoffeffizienz und niedrige Kosten: Alles zugleich bekommst du nicht. Das perfekte Auto gibt es nicht, nur das passende für das Segment, das du im Visier hast.
+- **Ohne Kompromisse geht es nicht** – hohe Leistung, Komfort, Zuverlässigkeit, gute Kraftstoffeffizienz, niedrige Kosten: Alles zugleich bekommst du nicht. Das perfekte Auto gibt es nicht, nur das passende für das Segment, das du im Visier hast.
 - **Die Attraktivität schwindet** – je länger ein Modell im Handel ist, desto weniger Käufer findet es. Defekte und Facelifts entscheiden mit, ob es konkurrenzfähig bleibt oder sang- und klanglos vom Markt verschwindet.
-- **Modellpalette statt Glückstreffer** – besetze die Segmente, auf die es ankommt, nimm veraltete Modelle aus dem Programm und bring jeden Nachfolger zum richtigen Zeitpunkt auf den Markt.
+- **Eine Modellpalette statt Eintagsfliegen** – besetze die Segmente, auf die es ankommt, nimm veraltete Modelle aus dem Programm und bring jeden Nachfolger zum richtigen Zeitpunkt auf den Markt.
 
 ## Forschung, die über Jahrzehnte nachwirkt
 
@@ -27,10 +27,10 @@ Jedes Modell entsteht auf deinem Reißbrett. Wähle aus zwölf Fahrzeugtypen, le
 
 {{clip:business}} Ein gutes Auto ist erst die halbe Miete. Bau den Betrieb dahinter auf und halte ihn am Laufen.
 
-- **Produktion** – Werke, Produktionslinien, Schichten, Umrüstzeiten. Stimme die Stückzahlen auf die Nachfrage ab, ohne am Ende auf unverkauften Wagen sitzen zu bleiben.
+- **Produktion** – Werke, Produktionslinien, Schichten und Umrüstung. Stimm die Stückzahlen auf die Nachfrage ab, ohne am Ende auf unverkauften Wagen sitzen zu bleiben.
 - **Preise** – leg für jedes Modell fest, wo es im Vergleich zur Konkurrenz liegt. Unterbietest du sie, wechseln Käufer zu dir. Hältst du den Preis, muss deine Marke überzeugen. Gehst du zu weit runter, gilt dein Auto schnell als billig.
 - **Finanzen** – bring das Geld für die Entwicklung auf, behalte die Liquidität im Blick und wachse mit Fremdkapital schneller, als es deine Bilanz eigentlich hergibt.
-- **Marke** – Marketing stärkt Reputation und Prestige, und beides entscheidet, ob Käufer dich einem Konkurrenten vorziehen, dessen Autos genauso gut sind. Lässt du einen Defekt schleifen, leiden beide darunter. Vertrauen die Käufer deiner Marke, verzeihen sie ihr auch ein Auto, das auf dem Papier nicht mithalten kann.
+- **Marke** – Marketing sorgt dafür, dass Käufer genauer hinsehen; Reputation und Prestige erarbeitest du dir mit den Autos, die du verkaufst, und beides entscheidet, ob Käufer dich einem Konkurrenten vorziehen, dessen Autos genauso gut sind. Lässt du einen Defekt schleifen, geht das auf Kosten deiner Reputation. Vertrauen die Käufer deiner Marke, verzeihen sie ihr auch ein Auto, das auf dem Papier nicht mithalten kann.
 
 ## Konkurrenz, die nicht stillsteht
 

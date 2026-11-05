@@ -30,7 +30,7 @@ Cada modelo nasce na prancheta. Escolhe entre 12 tipos de carro, dimensiona o mo
 - **Produção** — fábricas, linhas de produção, turnos de trabalho e reconversão. Ajusta o volume à demanda sem ficares atolado em stock parado.
 - **Preços** — define o preço de cada modelo em função do que os rivais estão a pedir. Vende mais barato e tira-lhes clientes; mantém o preço e deixa que seja a marca a vender. Baixa-o demasiado e os compradores passam a ver o modelo como um carro barato e nada mais.
 - **Finanças** — financia a I&D, controla a tesouraria e recorre ao crédito para crescer mais depressa do que o teu balanço permitiria.
-- **Marca** — o marketing constrói reputação e prestígio, e são eles que mudam a forma como os compradores te avaliam frente a um rival em tudo idêntico. Basta um defeito que te escape para ambos caírem a pique. Uma marca de confiança vende carros que, no papel, não se venderiam.
+- **Marca** — o marketing faz os compradores reparar em ti; a reputação e o prestígio vêm dos carros que vendes e, juntos, decidem como te avaliam frente a um rival em tudo idêntico. Deixa passar um defeito e é a tua reputação que paga a fatura. Uma marca de confiança vende carros que, no papel, não se venderiam.
 
 ## Vence um pelotão que vai crescendo até aos 30 rivais controlados por IA
 

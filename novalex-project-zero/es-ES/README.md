@@ -30,7 +30,7 @@ Cada modelo empieza en tu mesa de diseño. Elige entre 12 tipos de coche, define
 - **Fabricación**: plantas, líneas de producción, turnos de trabajo y cambios de utillaje. Ajusta la producción a la demanda sin acabar enterrado bajo existencias que no compra nadie.
 - **Precios**: fija el precio de cada modelo frente a lo que pide la competencia. Ponte por debajo y te llevas a sus clientes; aguanta el precio y deja que la marca haga el resto. Pero si lo bajas demasiado, el modelo se queda con fama de coche barato.
 - **Dinero**: financia la I+D, controla la tesorería y endéudate para crecer más rápido de lo que tu balance aguantaría.
-- **Marca**: el marketing forja reputación y prestigio, y juntos cambian cómo te valoran los compradores frente a un rival idéntico en todo lo demás. Un defecto que dejas pasar hunde por igual la reputación y el prestigio. Una marca de confianza vende coches que sobre el papel no deberían venderse.
+- **Marca**: el marketing hace que los compradores te miren dos veces; la reputación y el prestigio salen de los coches que vendes, y juntos deciden en qué lugar te sitúan frente a un rival idéntico en todo lo demás. Si dejas pasar un defecto, lo paga tu reputación. Una marca de confianza vende coches que sobre el papel no deberían venderse.
 
 ## Rivales controlados por la IA: hasta 30 marcas en el mercado
 
